@@ -29,7 +29,33 @@ Aug, 2022
   
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/47f021dd-5c66-4cc4-812e-82043af9537c)
 
+- [Observability vs Monitoring - The difference explained with an example](https://signoz.io/blog/observability-vs-monitoring/)
+
+  ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/a6976e6a-7700-4575-aecc-fe678d4c59b4)
+
 - [Observability vs Monitoring vs Telemetry: Understanding the Key Differences](https://cribl.io/blog/observability-vs-monitoring-vs-telemetry/)
+- [What is Open Telemetry?](https://www.youtube.com/watch?v=jt5HLptVvbM)
+
+  <img width="1510" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/510c002b-e0ab-40a7-8166-af9e5e4c2e34">
+
+- [How Does Open Telemetry Work?](https://www.youtube.com/watch?v=YwyfYfgjG0w)
+
+  ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/5da3a80d-2cf9-49da-8450-04a975aeccf9)
+
+- [The Basics of Distributed Tracing](https://www.youtube.com/watch?v=uxT032OxVOA)
+
+  <img width="1512" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/bf3d22b6-270d-46dd-a524-f9c90619c497">
+
+- [Introduction to EDA & Tracing Challenges](https://www.youtube.com/watch?v=u9oBD5pqDig)
+
+  <img width="1441" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/301c5c0f-eada-4c35-83e5-3be9e0c83c40">
+
+- [How Does Distributed Tracing Work With an Event Broker?](https://www.youtube.com/watch?v=q4035-O4bww)
+
+  <img width="833" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/09697172-a9ea-4c5e-8c91-41d972602c50">
+
+  <img width="983" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/7b8a4517-0eb9-42a6-bd5f-56a7072e3bc2">
+
 - [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
 - [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
 - [UMI - Unified Infrastructure Monitoring](https://www.manageengine.com/it-operations-management/unified-infrastructure-monitoring.html#:~:text=%C2%BBApplications%20Manager-,Unified%20Infrastructure%20Monitoring,tool%20for%20network%20infrastructure%20monitoring.)
