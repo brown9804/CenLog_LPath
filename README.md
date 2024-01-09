@@ -18,3 +18,6 @@ Aug, 2022
 - [What is Observability?](https://www.ibm.com/topics/observability)
 - [What is Monitoring?](https://www.splunk.com/en_us/blog/learn/it-monitoring.html)
 - [Observability vs Monitoring](
+- [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
+- [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
+- [UMI - Unified Infrastructure Monitoring](https://www.manageengine.com/it-operations-management/unified-infrastructure-monitoring.html#:~:text=%C2%BBApplications%20Manager-,Unified%20Infrastructure%20Monitoring,tool%20for%20network%20infrastructure%20monitoring.)
