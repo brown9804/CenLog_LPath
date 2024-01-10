@@ -64,7 +64,7 @@ Aug, 2022
 
 - [OpenTelemetry code instrumentation](https://opentelemetry.io/docs/instrumentation/) is supported for many popular programming languages, [more details on Observability Agent](https://docs.fusion-reactor.com/Getting-started/GSOTel/)
 
-  <img width="776" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/642ac702-c77d-44c1-8e10-c56b139aa100">
+  <img width="744" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/837e2c42-a29c-411a-b0e8-b0adc5302201">
 
   <img width="742" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2344144c-07fa-4303-ad63-7346d993da58">
 
