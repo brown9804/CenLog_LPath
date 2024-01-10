@@ -49,15 +49,15 @@ Aug, 2022
 
   <img width="1221" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/76ee4572-6774-4242-8dd1-78eebc954632">
 
-| Observability Backends | URL |
+| Observability Backends | Definition |
 | --- | --- | 
 | [Honeycomb](https://www.honeycomb.io/blog/all-in-on-opentelemetry)  |    Honeycomb organizes your telemetry data for fast, accurate exploration from the same UI, regardless of data type, allowing you debug issues for a single user or complex patterns across multiple users and services.     |
 | [Lightstep](https://github.com/lightstep) |   Monitoring, observability, and incident response for the world’s most reliable systems       |
 | [Jaeger](https://www.jaegertracing.io/)  | It provides deep visibility into the flow of requests and transactions as they traverse through various services within a complex architecture. |
 | [DataDog](https://docs.datadoghq.com/opentelemetry/) |  OpenTelemetry and DataDog are both used for monitoring applications. While OpenTelemetry is an open source observability framework, DataDog is a cloud-monitoring SaaS service, [reference](https://signoz.io/blog/opentelemetry-vs-datadog/#:~:text=OpenTelemetry%20and%20DataDog%20are%20both,%2C%20metrics%2C%20and%20traces). Allows customers to ingest all metrics, traces and logs across applications, infrastructure and third-party service, [reference](https://www.chaossearch.io/blog/pros-cons-datadog-log-analytics#:~:text=Datadog%20allows%20customers%20to%20ingest,popular%20among%20fast%2Dgrowing%20companies.)   |
 | [ZipKin](https://zipkin.io/) |Zipkin is a distributed tracing system. **It helps gather timing data needed to troubleshoot latency problems in service architectures. Features include both the collection and lookup of this data**. If you have a trace ID in a log file, you can jump directly to it, [reference](https://greyamp.medium.com/what-is-zipkin-and-how-does-it-work-86a628e56a2f)        |
-| Prometheus |          | 
-| Splunk  |          |
+| [Prometheus](https://prometheus.io/) |  Prometheus is an essential tool for monitoring, and a key component in observability platforms for cloud-native environments. Simplifies integrations with Kubernetes-based environments compared to other monitoring tools. Prometheus works well for recording any purely numeric time series. It fits both machine-centric monitoring as well as monitoring of highly dynamic service-oriented architectures. In a world of microservices, its support for multi-dimensional data collection and querying is a particular strength., [reference](https://prometheus.io/docs/introduction/overview/#:~:text=Prometheus%20works%20well%20for%20recording,querying%20is%20a%20particular%20strength.)     | 
+| [Splunk](https://www.splunk.com/)  | It is able to find useful information within organizations' data without users having to identify it themselves. It saves searches and tags that it recognizes as important information, which helps organizations make their systems smarter, [reference](https://www.splunk.com/en_us/pdfs/resources/solution-guide/splunk-for-observability.pdf). And also, [Key Benefits and Features](https://www.fortinet.com/resources/cyberglossary/what-is-splunk#:~:text=Key%20benefits%20of%20Splunk%20include%3A&text=It%20is%20able%20to%20find,organizations%20make%20their%20systems%20smarter.) |
 | [Signoz](https://signoz.io/) |    SigNoz leverages the power of ClickHouse, a columnar database.       |
 
 
