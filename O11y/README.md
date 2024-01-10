@@ -12,3 +12,6 @@ Belinda Brown, belindabrownr04@gmail.com
 Aug, 2022
 
 ----------
+
+- [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
+- [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
