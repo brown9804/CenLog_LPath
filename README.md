@@ -23,6 +23,11 @@ Aug, 2022
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2e23c3d4-fa1a-410c-8100-976985a62de2)
 
+- [What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre), to understand difference between DevOps [click here](https://jelvix.com/blog/sre-vs-devops)
+
+  <img width="945" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/875b0794-ab5a-469c-b4d3-6ed56a44aa77">
+
+  
 - [Observability vs Monitoring](https://www.computer.org/publications/tech-news/trends/observability-vs-monitoring-the-key-differences-devops-should-know/)
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/eebe5c5a-9b3e-4a96-9604-aa3b89c4b597)
