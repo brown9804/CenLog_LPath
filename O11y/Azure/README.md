@@ -1,4 +1,4 @@
-# Observability & Monitoring over Azure Components 
+# Observability over Azure Components 
 
 ----------
 
@@ -12,7 +12,3 @@ Belinda Brown, belindabrownr04@gmail.com
 Aug, 2022
 
 ----------
-
-## Wiki 
-
-- [Monitoring Azure virtual network](https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network)
