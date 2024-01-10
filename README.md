@@ -62,7 +62,12 @@ Aug, 2022
 
   <img width="983" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/7b8a4517-0eb9-42a6-bd5f-56a7072e3bc2">
 
-- [OpenTelemetry code instrumentation](https://opentelemetry.io/docs/instrumentation/) is supported for many popular programming languages
+- [OpenTelemetry code instrumentation](https://opentelemetry.io/docs/instrumentation/) is supported for many popular programming languages, [more details on Observability Agent](https://docs.fusion-reactor.com/Getting-started/GSOTel/)
+
+  <img width="776" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/642ac702-c77d-44c1-8e10-c56b139aa100">
+
+  <img width="742" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2344144c-07fa-4303-ad63-7346d993da58">
+
 - [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
 - [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
 - [UMI - Unified Infrastructure Monitoring](https://www.manageengine.com/it-operations-management/unified-infrastructure-monitoring.html#:~:text=%C2%BBApplications%20Manager-,Unified%20Infrastructure%20Monitoring,tool%20for%20network%20infrastructure%20monitoring.)
