@@ -34,13 +34,19 @@ Aug, 2022
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/a6976e6a-7700-4575-aecc-fe678d4c59b4)
 
 - [Observability vs Monitoring vs Telemetry: Understanding the Key Differences](https://cribl.io/blog/observability-vs-monitoring-vs-telemetry/)
-- [What is Open Telemetry?](https://www.youtube.com/watch?v=jt5HLptVvbM)
+- [What is OpenTelemetry?](https://www.youtube.com/watch?v=jt5HLptVvbM) provides an overview of OpenTelemetry. Additionally, [Honeycomb](https://www.honeycomb.io/blog/all-in-on-opentelemetry) is discussed in detail as it is marketed as being "All-In on OpenTelemetry".
 
   <img width="1510" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/510c002b-e0ab-40a7-8166-af9e5e4c2e34">
 
-- [How Does Open Telemetry Work?](https://www.youtube.com/watch?v=YwyfYfgjG0w)
+  <img width="1080" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/6edf6a2a-4dbc-45d3-8615-17ad467913dd">
+
+- [How Does Open Telemetry Work?](https://www.youtube.com/watch?v=YwyfYfgjG0w), look [OpenTelemetry as a Service](https://medium.com/@magstherdev/opentelemetry-as-a-service-497068b81f7c). A [beginner’s guide](https://faun.pub/opentelemetry-d71d369c83d7) to OpenTelemetry
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/5da3a80d-2cf9-49da-8450-04a975aeccf9)
+
+  <img width="1221" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/76ee4572-6774-4242-8dd1-78eebc954632">
+
+  <img width="1226" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/33282fc4-9e5c-4947-b2c6-07a36e36e864">
 
 - [The Basics of Distributed Tracing](https://www.youtube.com/watch?v=uxT032OxVOA)
 
