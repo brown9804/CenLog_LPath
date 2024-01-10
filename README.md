@@ -48,6 +48,12 @@ Aug, 2022
 
   <img width="1226" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/33282fc4-9e5c-4947-b2c6-07a36e36e864">
 
+- [OpenTelemetry code instrumentation](https://opentelemetry.io/docs/instrumentation/) is supported for many popular programming languages, [more details on Observability Agent](https://docs.fusion-reactor.com/Getting-started/GSOTel/)
+
+  <img width="744" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/837e2c42-a29c-411a-b0e8-b0adc5302201">
+
+  <img width="742" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2344144c-07fa-4303-ad63-7346d993da58">
+
 - [The Basics of Distributed Tracing](https://www.youtube.com/watch?v=uxT032OxVOA)
 
   <img width="1512" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/bf3d22b6-270d-46dd-a524-f9c90619c497">
@@ -61,12 +67,6 @@ Aug, 2022
   <img width="833" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/09697172-a9ea-4c5e-8c91-41d972602c50">
 
   <img width="983" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/7b8a4517-0eb9-42a6-bd5f-56a7072e3bc2">
-
-- [OpenTelemetry code instrumentation](https://opentelemetry.io/docs/instrumentation/) is supported for many popular programming languages, [more details on Observability Agent](https://docs.fusion-reactor.com/Getting-started/GSOTel/)
-
-  <img width="744" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/837e2c42-a29c-411a-b0e8-b0adc5302201">
-
-  <img width="742" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2344144c-07fa-4303-ad63-7346d993da58">
 
 - [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
 - [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
