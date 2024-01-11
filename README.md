@@ -26,7 +26,6 @@ Aug, 2022
 - [What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre), to understand difference between DevOps [click here](https://jelvix.com/blog/sre-vs-devops)
 
   <img width="945" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/875b0794-ab5a-469c-b4d3-6ed56a44aa77">
-
   
 - [Observability vs Monitoring](https://www.computer.org/publications/tech-news/trends/observability-vs-monitoring-the-key-differences-devops-should-know/)
 
@@ -48,14 +47,16 @@ Aug, 2022
 
 - [How Does Open Telemetry Work?](https://www.youtube.com/watch?v=YwyfYfgjG0w), look [OpenTelemetry as a Service](https://medium.com/@magstherdev/opentelemetry-as-a-service-497068b81f7c). 
 
-  ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/5da3a80d-2cf9-49da-8450-04a975aeccf9)
+  ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/5da3a80d-2cf9-49da-8450-04a975aeccf9), 
 
   <img width="1080" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/6edf6a2a-4dbc-45d3-8615-17ad467913dd">
 
   <img width="1221" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/76ee4572-6774-4242-8dd1-78eebc954632">
 
-| Observability Backends | Definition |
-| --- | --- | 
+  <img width="726" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/8dad1b3b-51a6-4652-90ba-b4e53bcb77e8">
+
+| Observability Backends | Definition | Pros | Cons |
+| --- | --- | --- | --- | 
 | [Honeycomb](https://www.honeycomb.io/blog/all-in-on-opentelemetry)  |    Honeycomb organizes your telemetry data for fast, accurate exploration from the same UI, regardless of data type, allowing you debug issues for a single user or complex patterns across multiple users and services.     |
 | [Lightstep](https://github.com/lightstep) |   Monitoring, observability, and incident response for the world’s most reliable systems       |
 | [Jaeger](https://www.jaegertracing.io/)  | It provides deep visibility into the flow of requests and transactions as they traverse through various services within a complex architecture. |
