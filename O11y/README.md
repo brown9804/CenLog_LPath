@@ -13,6 +13,20 @@ Aug, 2022
 
 ----------
 
+## Content 
+
+<!-- TOC -->
+
+- [Observability Notes](#observability-notes)
+    - [Content](#content)
+    - [Open Telemetry](#open-telemetry)
+    - [Observability Backends](#observability-backends)
+    - [Grafana](#grafana)
+
+<!-- /TOC -->
+
+## Open Telemetry
+
 - [How Does Open Telemetry Work?](https://www.youtube.com/watch?v=YwyfYfgjG0w), look [OpenTelemetry as a Service](https://medium.com/@magstherdev/opentelemetry-as-a-service-497068b81f7c). 
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/5da3a80d-2cf9-49da-8450-04a975aeccf9)
@@ -51,7 +65,11 @@ Aug, 2022
   <img width="744" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/837e2c42-a29c-411a-b0e8-b0adc5302201">
 
   <img width="742" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2344144c-07fa-4303-ad63-7346d993da58">
-  
+
+
+
+## Observability Backends 
+
 | UX Rate | Data Type | Observability Backends | Definition | Pros | Cons |
 | --- | --- | --- | --- | --- | --- | 
 |[4.9 ⭐](https://www.getapp.com/development-tools-software/a/honeycomb/)| - [Metrics](https://docs.honeycomb.io/getting-data-in/metrics/) <br/> - [Traces](https://docs.honeycomb.io/getting-data-in/opentelemetry-overview/) <br/> - [Logs](https://docs.honeycomb.io/getting-data-in/logs/) <br/> | [Honeycomb](https://www.honeycomb.io/blog/all-in-on-opentelemetry)  |    Honeycomb organizes your telemetry data for fast, accurate exploration from the same UI, regardless of data type, allowing you debug issues for a single user or complex patterns across multiple users and services.     | - **High-Resolution Data**: HoneyComb captures detailed data for precise troubleshooting, allowing for granular insights. <br/> - **Dynamic Sampling**: Its adaptive sampling feature ensures efficient data collection without overwhelming storage and costs. <br/> - **Collaborative Debugging**: HoneyComb's shared workspaces promote team collaboration and faster issue resolution. [reference](https://thectoclub.com/tools/honeycomb-review/) | - **Learning Curve**: HoneyComb may have a slight learning curve for users unfamiliar with observability concepts. <br/> - **Limited Integrations**: While it offers integrations, it may not have as extensive a library as some other observability tools. <br/> - **Cost Consideration**: Depending on data volume, the pricing structure can become a factor for budget-conscious teams. [reference](https://thectoclub.com/tools/honeycomb-review/) | 
@@ -63,7 +81,6 @@ Aug, 2022
 | [4.6 ⭐](https://www.getapp.com/it-management-software/a/splunk/reviews/) | - [Metrics](https://www.splunk.com/en_us/blog/learn/melt-metrics-events-logs-traces.html) <br/> - [Traces](https://docs.splunk.com/observability/en/apm/apm-spans-traces/trace-search.html) <br/> - [Logs](https://www.splunk.com/en_us/blog/learn/splunk-log-observer.html) | [Splunk](https://www.splunk.com/)  | It is able to find useful information within organizations' data without users having to identify it themselves. It saves searches and tags that it recognizes as important information, which helps organizations make their systems smarter, [reference](https://www.splunk.com/en_us/pdfs/resources/solution-guide/splunk-for-observability.pdf). And also, [Key Benefits and Features](https://www.fortinet.com/resources/cyberglossary/what-is-splunk#:~:text=Key%20benefits%20of%20Splunk%20include%3A&text=It%20is%20able%20to%20find,organizations%20make%20their%20systems%20smarter.) Splunk is a widely used data analytics and log management platform that helps organizations collect, analyze, and visualize machine-generated data. | - **Data aggregation**: Splunk allows you to aggregate data from various sources, including logs, metrics, events, and more, providing a centralized view of your data. <br/> - **Powerful search and analysis**: Splunk offers a robust search language and query capabilities, enabling you to search, analyze, and correlate data to gain insights and troubleshoot issues. <br/> - **Scalability**: Splunk is designed to handle large volumes of data and can scale horizontally to support growing data requirements. <br/> - **Extensive integrations**: Splunk has a wide range of integrations with various technologies and tools, making it compatible with different applications and systems. <br/> - **Ecosystem and community**: Splunk has a rich ecosystem and an active community that contributes to its development, offering additional apps, extensions, and support resources. <br/> [reference](https://www.fortinet.com/resources/cyberglossary/what-is-splunk) | - **Cost**: Splunk can be expensive, especially for organizations with large data volumes or complex infrastructures, as it is typically licensed based on data ingestion volume. <br/> - **Learning curve**: Mastering the full capabilities of Splunk may require time and effort, particularly for users who are new to log management and data analytics. <br/> - **Resource consumption**: Splunk's resource requirements can be significant, including CPU, memory, and storage, especially for organizations with high data ingestion rates. <br/> [reference](https://www.knowledgehut.com/blog/database/what-is-splunk) | 
 | [Signoz](https://signoz.io/) |    SigNoz leverages the power of ClickHouse, a columnar database. Signoz is an open-source distributed tracing and observability platform designed to help organizations monitor and troubleshoot their microservices-based architectures.   |
 
-
-
+## Grafana 
 - [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
 - [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
