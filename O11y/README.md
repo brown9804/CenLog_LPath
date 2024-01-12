@@ -15,6 +15,8 @@ Aug, 2022
 
 `Observability is valuable for troubleshooting and identifying the underlying reasons behind problems or issues.`
 
+  ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/eebe5c5a-9b3e-4a96-9604-aa3b89c4b597)
+
 ## Content 
 
 <!-- TOC -->
