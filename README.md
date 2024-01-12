@@ -1,4 +1,4 @@
-# Observability & Monitoring Learning Path
+# Centralized Logging Learning Path
 
 ----------
 
