@@ -39,7 +39,7 @@ Aug, 2022
   
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/47f021dd-5c66-4cc4-812e-82043af9537c)
 
-- [Observability vs Monitoring - The difference explained with an example](https://signoz.io/blog/observability-vs-monitoring/)
+- [Observability vs Monitoring - The difference explained with an example](https://signoz.io/blog/observability-vs-monitoring/), [key definition](https://scoutapm.com/blog/applicationperformancemonitoring-observability)
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/a6976e6a-7700-4575-aecc-fe678d4c59b4)
 
