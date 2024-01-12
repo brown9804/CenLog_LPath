@@ -31,6 +31,7 @@ Aug, 2022
 
 - [What is Telemetry?](https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html)
 
+`Telemetry is used to collect and transmit data from remote sources, especially in hard-to-reach or hazardous environments. It is commonly used for performance monitoring, asset tracking, and predictive maintenance.`
 
 
 - [What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre), to understand difference between DevOps [click here](https://jelvix.com/blog/sre-vs-devops)
