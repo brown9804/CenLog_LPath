@@ -20,6 +20,8 @@ Aug, 2022
 
 - [What is Observability?](https://www.ibm.com/topics/observability)
 
+`Observability is particularly useful for diagnosing problems and understanding the root cause of issues.`
+
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/41a16f1b-7468-4588-82a9-d52aad5b5799)
 
 - [What is Monitoring?](https://www.splunk.com/en_us/blog/learn/it-monitoring.html)
