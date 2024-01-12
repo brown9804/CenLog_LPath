@@ -13,8 +13,7 @@ Aug, 2022
 
 ----------
 
-  ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/eebe5c5a-9b3e-4a96-9604-aa3b89c4b597)
-
+  <img width="572" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/d3aeff8a-8aa8-4760-8321-ed88432616c4">
 
 ## Wiki 
 
@@ -26,7 +25,13 @@ Aug, 2022
 
 - [What is Monitoring?](https://www.splunk.com/en_us/blog/learn/it-monitoring.html)
 
+`Monitoring helps ensure a system is working correctly and allows proactive problem detection and resolution before they become critical. We can say, therefore, monitoring is a subset of telemetry. It provides deeper monitoring capabilities and a comprehensive understanding of the system.`
+
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2e23c3d4-fa1a-410c-8100-976985a62de2)
+
+- [What is Telemetry?](https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html)
+
+
 
 - [What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre), to understand difference between DevOps [click here](https://jelvix.com/blog/sre-vs-devops)
 
