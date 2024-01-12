@@ -15,7 +15,7 @@ Aug, 2022
 
 `Use telemetry when you need to collect and transmit data from remote sources, such as equipment or systems in hard-to-reach or hazardous environments. Telemetry is often used for performance monitoring, asset tracking, and predictive maintenance.`
 
-  ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/eebe5c5a-9b3e-4a96-9604-aa3b89c4b597)
+  <img width="1659" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/c794fbc3-0fc9-41a4-916b-7519a874684d">
 
 ## Content 
 
@@ -33,7 +33,7 @@ Aug, 2022
 
 `OpenTelemetry is a collection of APIs, SDKs, and client libraries used to generate telemetry data from your application code`
 
-- [What is OpenTelemetry?](https://www.youtube.com/watch?v=jt5HLptVvbM) provides an overview of OpenTelemetry. 
+- [What is OpenTelemetry?](https://www.youtube.com/watch?v=jt5HLptVvbM), [example](https://www.youtube.com/watch?v=UzeExvj_Q4s).
 
   <img width="1510" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/510c002b-e0ab-40a7-8166-af9e5e4c2e34">
 
