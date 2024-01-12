@@ -27,6 +27,10 @@ Aug, 2022
 
 <!-- /TOC -->
 
+- [Observability data categories — IT focus](https://acceldataio.medium.com/a-guide-to-evaluating-data-observability-tools-5589ad9d35ed)
+
+  <img width="697" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/ba8fbad6-459d-4c2d-a4fb-807b3107730b">
+  
 ## Grafana 
 - [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
 - [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
