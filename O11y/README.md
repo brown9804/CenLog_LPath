@@ -27,6 +27,8 @@ Aug, 2022
 
 ## Open Telemetry
 
+`OpenTelemetry is a collection of APIs, SDKs, and client libraries used to generate telemetry data from your application code`
+
 - [How Does Open Telemetry Work?](https://www.youtube.com/watch?v=YwyfYfgjG0w), look [OpenTelemetry as a Service](https://medium.com/@magstherdev/opentelemetry-as-a-service-497068b81f7c). 
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/5da3a80d-2cf9-49da-8450-04a975aeccf9)
@@ -36,7 +38,6 @@ Aug, 2022
   <img width="1221" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/76ee4572-6774-4242-8dd1-78eebc954632">
 
 - [A beginner’s guide](https://faun.pub/opentelemetry-d71d369c83d7) to OpenTelemetry. <br/>
-`OpenTelemetry is a collection of APIs, SDKs, and client libraries used to generate telemetry data from your application code`
 
   <img width="1226" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/33282fc4-9e5c-4947-b2c6-07a36e36e864">
 
