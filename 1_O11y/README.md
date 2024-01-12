@@ -42,3 +42,28 @@ Aug, 2022
 
 - [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
 - [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
+
+## Grafana OSS Stack
+
+| Product | Use | Pros | Cons | 
+| --- |  --- |  --- |  --- | 
+| [Grafana](https://grafana.com/oss/grafana/) | Grafana is the leading open source visualization and dashboarding platform that allows you to `query, visualize, alert on, and understand your data no matter where it’s stored.`    |      |      |
+| [Grafana Loki]() | Loki is a horizontally scalable, highly available, multi-tenant `log aggregation system` using the same powerful data model as Prometheus.     |      |      |
+| [Grafana Mimir](https://grafana.com/oss/mimir/) | Mimir is the most `scalable open source metrics storage`. It lets you scale to 1 billion active series and beyond, with high availability, multi-tenancy, durable storage, and blazing fast query performance over long periods of time.   |      |      |
+| [Grafana OnCall](https://grafana.com/oss/oncall/) | Grafana OnCall is an `easy-to-use on-call management tool` built to help teams improve their `collaboration and resolve incidents faster`.    |      |      |
+| [Grafana Tempo](https://grafana.com/oss/tempo/) |   Grafana Tempo is a distributed tracing backend that lets you scale `tracing as far as possible` with minimal operational cost and less complexity than ever before.   |      |      |
+| [Grafana Agent](https://grafana.com/oss/agent/) | Grafana Agent is a `telemetry collector` for sending `metrics, logs, and trace` data to the opinionated Grafana observability stack.    |      |      |
+| [Grafana k6](https://k6.io/)  | k6 is a developer-centric, extensible `performance testing tool` built to be intuitive, flexible, and powerful.    |      |      |
+| [Prometheus](https://grafana.com/oss/prometheus/) | Prometheus is an open source `monitoring system` developed. Prometheus is the de facto standard for `metrics-based observability` in `cloud native environments` and for `Kubernetes`   |      |      |
+| [Grafana Faro](https://grafana.com/oss/faro/) |  Grafana Faro is a project for `frontend application observability`. It includes a highly configurable web SDK that `instruments browser frontend applications to capture observability signals`, so you can monitor web application performance, discover frontend errors, and perform real user monitoring (RUM) while respecting their privacy.   |      |      |
+| [Grafana Pyroscope](https://grafana.com/oss/pyroscope/) |   Grafana Pyroscope is an open source continuous `profiling tool` that provides `insights into resource usage to optimize application performance`.   |      |      |
+| [Grafana Beyla](https://grafana.com/oss/beyla-ebpf/)  |   Beyla is an open source `eBPF auto-instrumentation tool` that is now in public preview. It `reports span information` for basic transactions as well as `RED metrics (Rate-Errors-Duration)` for both `Linux HTTP/S and gRPC services` — all without requiring any code modification.   |      |      |
+| [Grafana Tanka](https://grafana.com/oss/tanka/) |   Grafana Tanka is the `robust configuration utility for your Kubernetes cluster`, powered by the Jsonnet language.   |      |      |
+| [Graphite](https://grafana.com/oss/graphite/) |   Graphite is a `scalable monitoring system for time series data`.    |      |      |
+| [OpenTelemetry](https://grafana.com/oss/opentelemetry/) |  OpenTelemetry is a `collection of tools, APIs, and SDKs` to instrument, generate, collect, and export telemetry data, in order to `analyze software performance and behavior`    |      |      |
+
+
+
+
+
+
