@@ -17,11 +17,11 @@ Aug, 2022
 
 ## Wiki 
 
-- [What is Observability?](https://www.ibm.com/topics/observability), information about [Observability data categories — IT focus](https://acceldataio.medium.com/a-guide-to-evaluating-data-observability-tools-5589ad9d35ed)
+- [What is Observability?](https://www.ibm.com/topics/observability) [Logs and Metrics and Traces, Oh My!](https://www.youtube.com/watch?v=O0XNSU-I-sg)
 
 `Observability is particularly useful for diagnosing problems and understanding the root cause of issues.`
 
-  <img width="697" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/ba8fbad6-459d-4c2d-a4fb-807b3107730b">
+  <img width="1631" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/acb73eb4-feef-4838-b558-43986f29ef5e">
 
 - [What is Monitoring?](https://www.splunk.com/en_us/blog/learn/it-monitoring.html)
 
