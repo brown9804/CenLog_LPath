@@ -13,6 +13,8 @@ Aug, 2022
 
 ----------
 
+`Observability is valuable for troubleshooting and identifying the underlying reasons behind problems or issues.`
+
 ## Content 
 
 <!-- TOC -->
