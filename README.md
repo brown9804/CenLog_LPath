@@ -35,11 +35,11 @@ Aug, 2022
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/2e23c3d4-fa1a-410c-8100-976985a62de2)
 
-- [What is Telemetry?](https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html), [example](https://www.youtube.com/watch?v=UzeExvj_Q4s)
+- [What is Telemetry?](https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html), [TEMPLE reference](https://speakerdeck.com/yurishkuro/temple-six-pillars-of-telemetry?slide=6)
 
 `Telemetry is used to collect and transmit data from remote sources, especially in hard-to-reach or hazardous environments. It is commonly used for performance monitoring, asset tracking, and predictive maintenance.`
 
-  <img width="1659" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/c794fbc3-0fc9-41a4-916b-7519a874684d">
+  <img width="1222" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/91777850-2529-454e-afb3-580443cb8e82">
 
 - [Observability vs Monitoring](https://www.computer.org/publications/tech-news/trends/observability-vs-monitoring-the-key-differences-devops-should-know/)
   
