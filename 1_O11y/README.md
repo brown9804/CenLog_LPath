@@ -23,6 +23,7 @@ Aug, 2022
 
 - [Observability Notes](#observability-notes)
   - [Content](#content)
+  - [Observability data categories](#observability-data-categories)
   - [Grafana](#grafana)
 
 <!-- /TOC -->
