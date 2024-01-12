@@ -13,7 +13,7 @@ Aug, 2022
 
 ----------
 
-  <img width="572" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/d3aeff8a-8aa8-4760-8321-ed88432616c4">
+<img width="788" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/be10646f-6005-42d5-9606-e232029e6173">
 
 ## Wiki 
 
