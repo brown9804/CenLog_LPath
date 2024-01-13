@@ -74,7 +74,7 @@ Aug, 2022
   
 <img width="880" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/2d6c3b54-3866-4a4c-8b2a-ac834f44c247">
 
-## CLoud Architecture 
+## Cloud Architecture 
 
 - Reference for [Application Observability recommended architecture](https://grafana.com/blog/2023/11/14/announcing-application-observability-in-grafana-cloud-with-native-support-for-opentelemetry-and-prometheus/)
 
