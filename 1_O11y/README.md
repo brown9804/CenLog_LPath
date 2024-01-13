@@ -25,6 +25,12 @@ Aug, 2022
   - [Content](#content)
   - [Observability data categories](#observability-data-categories)
   - [Grafana](#grafana)
+  - [Grafana OSS Stack](#grafana-oss-stack)
+  - [Open Source Architecture](#open-source-architecture)
+  - [CLoud Architecture](#cloud-architecture)
+
+<!-- /TOC -->rce Architecture](#open-source-architecture)
+  - [CLoud Architecture](#cloud-architecture)
 
 <!-- /TOC -->
 
@@ -62,6 +68,14 @@ Aug, 2022
 | [Graphite](https://grafana.com/oss/graphite/) |   Graphite is a `scalable monitoring system for time series data`.    |   1. Grafana Graphite provides a scalable and efficient solution for storing and analyzing time-series data, making it ideal for monitoring and observability use cases. <br/> 2. It offers a wide range of visualization options and features in Grafana, allowing users to create interactive and customizable dashboards for data analysis and exploration. <br/> 3. Grafana Graphite has a large and active user community, which means there is extensive documentation, support, and a wide range of plugins available to enhance its functionality. <br/> [reference](https://coralogix.com/blog/grafana-vs-graphite/) | 1. Setting up and managing a Graphite infrastructure can be complex and resource-intensive, requiring expertise in data storage, maintenance, and optimization. <br/> 2. Graphite's query language can be less intuitive and more challenging to learn compared to other time-series databases, which may hinder adoption for users unfamiliar with the technology. <br/> 3. While Graphite is a mature and reliable solution, it may not be the best choice for high-frequency data ingestion or real-time analytics due to its storage and processing limitations. <br/> [reference](https://www.quora.com/What-is-your-review-of-Graphite-software)  |
 | [OpenTelemetry](https://grafana.com/oss/opentelemetry/) |  OpenTelemetry is a `collection of tools, APIs, and SDKs` to instrument, generate, collect, and export telemetry data, in order to `analyze software performance and behavior`    |   1. OpenTelemetry provides a standardized and vendor-neutral approach to observability, allowing for seamless instrumentation, collection, and analysis of telemetry data across different systems and languages. <br/> 2. It offers a flexible and extensible architecture, enabling developers to easily integrate it into existing applications and frameworks, and customize it to meet specific monitoring and tracing requirements. <br/> 3. OpenTelemetry has a growing and active community, ensuring continuous development, support, and the availability of plugins and integrations with popular observability tools and platforms. <br/> [reference](https://medium.com/opentelemetry/opentelemetry-beyond-getting-started-5ac43cd0fe26) | 1. Implementing OpenTelemetry can require additional development effort and resources, especially for applications that are not already instrumented or do not have built-in support for OpenTelemetry. <br/> 2. The complexity of OpenTelemetry's architecture and configuration options can make it challenging for beginners or teams without prior experience in observability to set up and use effectively. <br/> 3. As a relatively new and evolving project, OpenTelemetry may have limited documentation and community support compared to more established observability solutions, which can impact troubleshooting and adoption. <br/> [reference](https://www.fusion-reactor.com/blog/what-is-opentelemetry-and-why-should-you-care/) |
 
+## Open Source Architecture 
+
 - Reference for [Opentelemetry Collector Data Flow](https://grafana.com/grafana/dashboards/18309-opentelemetry-collector-data-flow/)
   
 <img width="880" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/2d6c3b54-3866-4a4c-8b2a-ac834f44c247">
+
+## CLoud Architecture 
+
+- Reference for [Application Observability recommended architecture](https://grafana.com/blog/2023/11/14/announcing-application-observability-in-grafana-cloud-with-native-support-for-opentelemetry-and-prometheus/)
+
+<img width="593" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/6fd160c9-0704-4732-b9f3-e681843ebe90">
