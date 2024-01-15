@@ -29,8 +29,6 @@ Aug, 2022
   - [Open Source Architecture](#open-source-architecture)
   - [Cloud Architecture](#cloud-architecture)
 
-<!-- /TOC -->rce Architecture](#open-source-architecture)
-
 <!-- /TOC -->
 
 ## Observability data categories 
