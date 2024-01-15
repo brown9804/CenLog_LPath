@@ -27,10 +27,9 @@ Aug, 2022
   - [Grafana](#grafana)
   - [Grafana OSS Stack](#grafana-oss-stack)
   - [Open Source Architecture](#open-source-architecture)
-  - [CLoud Architecture](#cloud-architecture)
+  - [Cloud Architecture](#cloud-architecture)
 
 <!-- /TOC -->rce Architecture](#open-source-architecture)
-  - [CLoud Architecture](#cloud-architecture)
 
 <!-- /TOC -->
 
