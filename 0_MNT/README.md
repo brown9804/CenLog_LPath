@@ -20,7 +20,17 @@ Aug, 2022
 
 - [UMI - Unified Infrastructure Monitoring](https://www.manageengine.com/it-operations-management/unified-infrastructure-monitoring.html#:~:text=%C2%BBApplications%20Manager-,Unified%20Infrastructure%20Monitoring,tool%20for%20network%20infrastructure%20monitoring.)
 
+- [Monitoring 4 golden signals](https://www.blameless.com/blog/4-sre-golden-signals-what-they-are-and-why-they-matter)
+  
+<img width="770" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/81003d72-0183-48fc-a692-f741d210b2fe">
+
+- [How to monitor Golden signals in Kubernetes](https://fr.sysdig.com/blog/golden-signals-kubernetes/)
+- [SRE book - Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
+- [DevOps vs SRE](https://devops.com/site-reliability-engineering-101-devops-versus-sre/)
+
+<img width="1438" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/36b5b7ba-6075-40b4-b8f4-2e7f68063cd1">
+
 ## Terraform Cloud Monitoring 
 
--[Terraform Cloud for Splunk setup instructions](https://developer.hashicorp.com/terraform/cloud-docs/integrations/splunk)
+- [Terraform Cloud for Splunk setup instructions](https://developer.hashicorp.com/terraform/cloud-docs/integrations/splunk)
 - [Terraform Cloud Explorer](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/explorer)
