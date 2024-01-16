@@ -23,4 +23,15 @@ Aug, 2022
 
 ## Network configuration (Vnet/subnet)
 
-- [Monitoring Azure virtual network](https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network), 
+- [Monitoring Azure virtual network](https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network)
+
+## Logic App Standard 
+
+## Function App 
+
+## SQL Server + DB 
+
+## Data Lake 
+
+## Data Factory
+
