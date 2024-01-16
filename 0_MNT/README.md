@@ -16,4 +16,11 @@ Aug, 2022
 
   <img width="572" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/d3aeff8a-8aa8-4760-8321-ed88432616c4">
 
+## Monitoring
+
 - [UMI - Unified Infrastructure Monitoring](https://www.manageengine.com/it-operations-management/unified-infrastructure-monitoring.html#:~:text=%C2%BBApplications%20Manager-,Unified%20Infrastructure%20Monitoring,tool%20for%20network%20infrastructure%20monitoring.)
+
+## Terraform Cloud Monitoring 
+
+-[Terraform Cloud for Splunk setup instructions](https://developer.hashicorp.com/terraform/cloud-docs/integrations/splunk)
+- [Terraform Cloud Explorer](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/explorer)
