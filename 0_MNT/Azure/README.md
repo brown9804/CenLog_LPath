@@ -27,7 +27,14 @@ Aug, 2022
 
 ## Logic App Standard 
 
+- [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
+- [Monitor and collect diagnostic data for workflows in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-workflows-collect-diagnostic-data?tabs=consumption)
+- Monitor workflow run status, review trigger and workflow run history, and set up alerts in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-logic-apps?tabs=consumption)
+
 ## Function App 
+
+- [Monitoring Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/monitor-functions?tabs=portal)
+- [How to configure monitoring for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring?tabs=v2)
 
 ## SQL Server + DB 
 
