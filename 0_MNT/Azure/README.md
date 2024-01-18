@@ -44,14 +44,16 @@ Aug, 2022
 
 ## Network configuration (Vnet/subnet)
 
-
 - [Monitoring Azure virtual network](https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network)
 - [Azure Virtual Network (VNet) monitoring integration insights](https://www.site24x7.com/help/azure/virtual-network-monitoring.html#metrics)
 - [Deep dive into managing and monitoring your Azure networks](https://www.youtube.com/watch?v=htzaJ2xc9EM&t=110s)
 
 <img width="1081" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7c6cc2cf-24ca-409c-9817-f5a39275859a">
 
-  
+<img width="1086" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/944be647-077c-4604-8841-78bb86221486">
+
+<img width="1102" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/789c5ad8-3e6f-49a3-a992-7c0b11767650">
+
 ## Logic App Standard 
 
 - [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
@@ -64,6 +66,7 @@ Aug, 2022
 - [How to configure monitoring for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring?tabs=v2)
 
 ## SQL Server + DB 
+
 - [Monitor Azure SQL Database with Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-sql-database-azure-monitor?view=azuresql)
 - [Monitor Azure SQL Database with metrics and alerts](https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-metrics-alerts?view=azuresql-db)
 - [Monitor and performance tuning in Azure SQL Database and Azure SQL Managed Instance](https://learn.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview?view=azuresql)
@@ -80,3 +83,8 @@ Aug, 2022
 - [Monitor and Alert Data Factory by using Azure Monitor](https://learn.microsoft.com/en-us/azure/data-factory/monitor-using-azure-monitor)
 - [Visually monitor Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/monitor-visually)
 
+
+## WebApp 
+
+- [Web Apps](https://azure.microsoft.com/en-us/products/app-service/web)
+- [App Service overview](https://learn.microsoft.com/en-us/azure/app-service/overview)
