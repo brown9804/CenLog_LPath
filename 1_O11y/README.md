@@ -46,6 +46,7 @@ Aug, 2022
 - [Grafana - OSS vs Cloud](https://grafana.com/oss-vs-cloud/)
 - [Grafana - Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
 - [Grafana - Microsoft SQL Server data source](https://grafana.com/docs/grafana/latest/datasources/mssql/)
+- [How to setup all E2E in a VM](https://sandervandevelde.wordpress.com/2021/06/15/cloud-iot-dashboards-using-grafana-with-azure-iot/)
 
 ## Grafana OSS Stack
 
