@@ -63,6 +63,11 @@ Aug, 2022
 
 <img width="1110" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/12b694fe-4fa4-40a9-8b9c-9960d893626c">
 
+- [What is Azure Network Watcher?](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview)
+
+![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/d4eb365b-834f-4e60-9254-482ffb0c76df)
+
+
 ## Logic App Standard 
 
 - [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
