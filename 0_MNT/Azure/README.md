@@ -54,6 +54,14 @@ Aug, 2022
 
 <img width="1102" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/789c5ad8-3e6f-49a3-a992-7c0b11767650">
 
+<img width="963" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7501080b-e56c-4b90-8536-33ae5d001ade">
+
+<img width="1077" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/4c888749-16c2-4326-899b-e3b5b198ca92">
+
+<img width="876" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/26de0298-36ea-4fac-a661-477c13a7e2c1">
+
+<img width="1110" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/12b694fe-4fa4-40a9-8b9c-9960d893626c">
+
 ## Logic App Standard 
 
 - [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
