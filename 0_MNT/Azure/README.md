@@ -1,4 +1,4 @@
-## Azure Monitoring Notes 
+## Monitoring Azure Resources  
 ----------
 
 Costa Rica
