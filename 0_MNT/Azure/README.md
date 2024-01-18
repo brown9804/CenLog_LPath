@@ -17,18 +17,20 @@ Aug, 2022
 
 ## Azure Monitor 
 
-- [Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
-
 <img width="1360" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7dcd0959-db55-4c45-8654-6292a19f0bd7">
 
 <img width="1342" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/cc2448be-0d6d-476e-8d95-ee9e1cd6d5f5">
 
+- [Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
+
 ## Azure Log Analytics 
+
+<img width="1457" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/30315059-14e1-43b1-a998-4faf1dbdeb08">
 
 - [Log Analytics tutorial](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial)
 - [Azure Log Analytics: the Basics and a Quick Tutorial](https://www.exabeam.com/explainers/log-management/azure-log-analytics-the-basics-and-a-quick-tutorial/)
--[Overview of Log Analytics in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview)
-
+- [Overview of Log Analytics in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview)
+- [Using Azure Log Analytics in Power BI](https://learn.microsoft.com/en-us/power-bi/transform-model/log-analytics/desktop-log-analytics-overview)
 
 ## Azure Analysis Services
 
