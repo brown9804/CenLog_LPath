@@ -78,3 +78,7 @@ Aug, 2022
 - Reference for [Application Observability recommended architecture](https://grafana.com/blog/2023/11/14/announcing-application-observability-in-grafana-cloud-with-native-support-for-opentelemetry-and-prometheus/)
 
 <img width="593" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/6fd160c9-0704-4732-b9f3-e681843ebe90">
+
+-[How to access Azure SQL Server Database Tables from Grafana Cloud](https://learn.microsoft.com/en-us/answers/questions/464027/how-to-access-azure-sql-server-database-tables-fro), if access denied consider [inbound/outbound rules of NSG](https://www.oreilly.com/library/view/learn-microsoft-azure/9781789617580/5391a461-818b-440e-99fe-13c53310f743.xhtml) after adding vnet of grafana instance resource to vnet of data source.
+
+![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/defcb5a9-4292-4e46-ad9b-f46a0faf1079)
