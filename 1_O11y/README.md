@@ -25,7 +25,6 @@ Aug, 2022
   - [Content](#content)
   - [Observability data categories](#observability-data-categories)
   - [Grafana](#grafana)
-  - [Grafana OSS Stack](#grafana-oss-stack)
   - [Open Source Architecture](#open-source-architecture)
   - [Cloud Architecture](#cloud-architecture)
 
