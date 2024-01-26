@@ -32,6 +32,7 @@ Aug, 2022
 ![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/defcb5a9-4292-4e46-ad9b-f46a0faf1079)
 
 - Grafana - [Hw to make URL text as link](https://community.grafana.com/t/where-is-the-option-to-render-value-as-link-in-grafana-8-0/49232/1)
+- Grafana - [How to change pie chart Color](https://community.grafana.com/t/how-to-change-pie-chart-color/43779/7)
   
 ## Grafana OSS Stack
 
