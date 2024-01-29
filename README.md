@@ -29,6 +29,11 @@ Aug, 2022
 
   <img width="1631" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/acb73eb4-feef-4838-b558-43986f29ef5e">
 
+- [How to Choose type of instrumentation?](https://www.slideshare.net/AlexThissen/logging-tracing-and-instrumentation-in-net-5-and-azure)
+
+![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/d99e009d-c885-483b-9f00-8202f04915fe)
+
+
 - [What is Monitoring?](https://www.splunk.com/en_us/blog/learn/it-monitoring.html)
 
 `Monitoring helps ensure a system is working correctly and allows proactive problem detection and resolution before they become critical. We can say, therefore, monitoring is a subset of telemetry. It provides deeper monitoring capabilities and a comprehensive understanding of the system.`
