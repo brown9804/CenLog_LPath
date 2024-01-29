@@ -33,8 +33,10 @@ Aug, 2022
 
 - Grafana - [How to make URL text as link](https://community.grafana.com/t/where-is-the-option-to-render-value-as-link-in-grafana-8-0/49232/1)
 - Grafana - [How to change pie chart Color](https://community.grafana.com/t/how-to-change-pie-chart-color/43779/7)
-- Grafana - [Creating Stacked Bar Charts on Grafana using data from SQL Server](https://community.grafana.com/t/creating-stacked-bar-charts-on-grafana-using-data-from-sql-server/8200)
-  
+- Grafana - [Creating Stacked Bar Charts on Grafana using data from SQL Server](https://community.grafana.com/t/creating-stacked-bar-charts-on-grafana-using-data-from-sql-server/8200), [Visualizing time series or multiple result sets](https://grafana.com/docs/grafana/latest/panels-visualizations/visualizations/bar-chart/#visualizing-time-series-or-multiple-result-sets)
+
+![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/725b41ac-6b85-4611-bb46-a89eed5d6543)
+
 ## Grafana OSS Stack
 
 | Product | Use | Pros | Cons | 
