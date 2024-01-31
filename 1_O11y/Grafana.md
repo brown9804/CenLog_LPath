@@ -38,7 +38,7 @@ Aug, 2022
 ![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/725b41ac-6b85-4611-bb46-a89eed5d6543)
 
 - Grafana - [Dynamic filtering using Grafana](https://community.grafana.com/t/dynamic-filtering-using-grafana/57649)
-
+- Grafana - [How to Join columns from two different tables from sql database and present it as a single table in grafana](https://community.grafana.com/t/how-to-join-columns-from-two-different-tables-from-sql-database-and-present-it-as-a-single-table-in-grafana/76317/1)
   
 ## Grafana OSS Stack
 
