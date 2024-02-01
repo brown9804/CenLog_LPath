@@ -39,7 +39,6 @@ Aug, 2022
 
 - Grafana - [Dynamic filtering using Grafana](https://community.grafana.com/t/dynamic-filtering-using-grafana/57649)
 - Grafana - [How to Join columns from two different tables from sql database and present it as a single table in grafana](https://community.grafana.com/t/how-to-join-columns-from-two-different-tables-from-sql-database-and-present-it-as-a-single-table-in-grafana/76317/1)
-- Grafana - [How to Concatenate Multiple Rows into One Column in MySQL](https://ubiq.co/database-blog/concatenate-multiple-rows-one-column-mysql/#:~:text=In%20this%20case%2C%20we%20use,multiple%20rows%20into%20one%20column.&text=GROUP_CONCAT%20concatenates%20all%20non%2Dnull,add%20DISTINCT%20in%20your%20query.)
   
 ## Grafana OSS Stack
 
