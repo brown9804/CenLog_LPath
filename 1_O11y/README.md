@@ -50,7 +50,11 @@ Aug, 2022
 
 - [Telemetry with OpenTelemetry, Prometheus and Jaeger](https://medium.com/@guilospanck/telemetry-with-opentelemetry-prometheus-and-jaeger-46a2d9dec86b)
 
-<img width="1283" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/0f9c6ec9-6cf8-4f87-98b6-1493e35ae171">
+<img width="750" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/0f9c6ec9-6cf8-4f87-98b6-1493e35ae171">
+
+- [Prometheus Architecture](https://prometheus.io/docs/introduction/overview/#architecture)
+
+<img width="750" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/df6bdcd5-bd43-4937-8eb8-fa3066554faf">
 
 ## Cloud Architecture 
 
