@@ -48,6 +48,10 @@ Aug, 2022
   
 <img width="880" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/2d6c3b54-3866-4a4c-8b2a-ac834f44c247">
 
+- [Telemetry with OpenTelemetry, Prometheus and Jaeger](https://medium.com/@guilospanck/telemetry-with-opentelemetry-prometheus-and-jaeger-46a2d9dec86b)
+
+<img width="1283" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/0f9c6ec9-6cf8-4f87-98b6-1493e35ae171">
+
 ## Cloud Architecture 
 
 - Reference for [Application Observability recommended architecture](https://grafana.com/blog/2023/11/14/announcing-application-observability-in-grafana-cloud-with-native-support-for-opentelemetry-and-prometheus/)
