@@ -39,16 +39,16 @@ Aug, 2022
 
 - [Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
 
-<img width="1360" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7dcd0959-db55-4c45-8654-6292a19f0bd7">
+<img width="900" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7dcd0959-db55-4c45-8654-6292a19f0bd7">
 
-<img width="1342" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/cc2448be-0d6d-476e-8d95-ee9e1cd6d5f5">
+<img width="900" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/cc2448be-0d6d-476e-8d95-ee9e1cd6d5f5">
 
 
 ## Azure Log Analytics 
 
 - [Log Analytics tutorial](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial)
   
-<img width="1457" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/30315059-14e1-43b1-a998-4faf1dbdeb08">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/30315059-14e1-43b1-a998-4faf1dbdeb08">
 
 - [Azure Log Analytics: the Basics and a Quick Tutorial](https://www.exabeam.com/explainers/log-management/azure-log-analytics-the-basics-and-a-quick-tutorial/)
 - [Overview of Log Analytics in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview)
@@ -58,7 +58,7 @@ Aug, 2022
 
 - [Analysis Services tools](https://learn.microsoft.com/en-us/analysis-services/tools-and-applications-used-in-analysis-services?view=azure-analysis-services-current)
   
-<img width="1064" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/a5b620c5-19ae-4e68-9b92-1e87f1b177ab">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/a5b620c5-19ae-4e68-9b92-1e87f1b177ab">
 
 - [Azure - Setting Up Azure Analysis Service (AAS)](https://microsoft-bitools.blogspot.com/2017/05/azure-setting-up-azure-analysis-server.html)
 - [Use Cases for Azure Analysis Services](https://www.sqlchick.com/entries/2016/11/29/use-cases-for-azure-analysis-services)
@@ -78,19 +78,19 @@ Aug, 2022
 - [Azure Virtual Network (VNet) monitoring integration insights](https://www.site24x7.com/help/azure/virtual-network-monitoring.html#metrics)
 - [Deep dive into managing and monitoring your Azure networks](https://www.youtube.com/watch?v=htzaJ2xc9EM&t=110s)
 
-<img width="1081" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7c6cc2cf-24ca-409c-9817-f5a39275859a">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7c6cc2cf-24ca-409c-9817-f5a39275859a">
 
-<img width="1086" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/944be647-077c-4604-8841-78bb86221486">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/944be647-077c-4604-8841-78bb86221486">
 
-<img width="1102" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/789c5ad8-3e6f-49a3-a992-7c0b11767650">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/789c5ad8-3e6f-49a3-a992-7c0b11767650">
 
-<img width="963" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7501080b-e56c-4b90-8536-33ae5d001ade">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7501080b-e56c-4b90-8536-33ae5d001ade">
 
-<img width="1077" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/4c888749-16c2-4326-899b-e3b5b198ca92">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/4c888749-16c2-4326-899b-e3b5b198ca92">
 
-<img width="876" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/26de0298-36ea-4fac-a661-477c13a7e2c1">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/26de0298-36ea-4fac-a661-477c13a7e2c1">
 
-<img width="1110" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/12b694fe-4fa4-40a9-8b9c-9960d893626c">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/12b694fe-4fa4-40a9-8b9c-9960d893626c">
 
 - [What is Azure Network Watcher?](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview)
 
