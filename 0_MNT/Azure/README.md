@@ -29,7 +29,7 @@ Aug, 2022
   - [Logic App Standard](#logic-app-standard)
   - [Function App](#function-app)
   - [SQL Server + DB](#sql-server--db)
-  - [Data Lake](#data-lake)
+  - [DataLake](#data-lake)
   - [Data Factory](#data-factory)
   - [WebApp](#webapp)
 
@@ -96,12 +96,25 @@ Aug, 2022
 
 ![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/d4eb365b-834f-4e60-9254-482ffb0c76df)
 
+| Golden Signal | Metric / Alerting  | 
+| --- | --- | 
+| Errors: Rate of failed requests |   |
+| Latency: Amount of time to service a request (performance) | |
+| Saturation: How close are you to 100% utilization? | |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
 
 ## Logic App Standard 
 
 - [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
 - [Monitor and collect diagnostic data for workflows in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-workflows-collect-diagnostic-data?tabs=consumption)
 - [Monitor workflow run status, review trigger and workflow run history, and set up alerts in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-logic-apps?tabs=consumption)
+
+| Golden Signal | Metric / Alerting  | 
+| --- | --- | 
+| Errors: Rate of failed requests |   |
+| Latency: Amount of time to service a request (performance) | |
+| Saturation: How close are you to 100% utilization? | |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
 
 ## Function App 
 
@@ -118,7 +131,6 @@ Aug, 2022
 | Latency: Amount of time to service a request (performance) | Response time buckets <br/> Show how many requests are in each performance-bucket. |
 | Saturation: How close are you to 100% utilization? | Operations performance <br/> Calculate request count and duration by operations.  |
 | Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Request count trend <br/> Chart Request count over the last day.  |
-
 
 ~~~
 // Errors
@@ -202,7 +214,14 @@ requests
 - [Monitor Azure SQL Database with metrics and alerts](https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-metrics-alerts?view=azuresql-db)
 - [Monitor and performance tuning in Azure SQL Database and Azure SQL Managed Instance](https://learn.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview?view=azuresql)
 
-## Data Lake 
+| Golden Signal | Metric / Alerting  | 
+| --- | --- | 
+| Errors: Rate of failed requests |   |
+| Latency: Amount of time to service a request (performance) | |
+| Saturation: How close are you to 100% utilization? | |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
+
+## DataLake 
 
 - [Monitor Azure Data Lake Store](https://stackoverflow.com/questions/50324427/monitor-azure-data-lake-store)
 - [Monitoring Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage?tabs=azure-portal)
@@ -248,7 +267,22 @@ StorageBlobLogs
 - [Visually monitor Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/monitor-visually)
 - [Data Factory metrics and alerts](https://learn.microsoft.com/en-us/azure/data-factory/monitor-metrics-alerts)
 
+| Golden Signal | Metric / Alerting  | 
+| --- | --- | 
+| Errors: Rate of failed requests |   |
+| Latency: Amount of time to service a request (performance) | |
+| Saturation: How close are you to 100% utilization? | |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
+
+
 ## WebApp 
 
 - [Web Apps](https://azure.microsoft.com/en-us/products/app-service/web)
 - [App Service overview](https://learn.microsoft.com/en-us/azure/app-service/overview)
+
+| Golden Signal | Metric / Alerting  | 
+| --- | --- | 
+| Errors: Rate of failed requests |   |
+| Latency: Amount of time to service a request (performance) | |
+| Saturation: How close are you to 100% utilization? | |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
