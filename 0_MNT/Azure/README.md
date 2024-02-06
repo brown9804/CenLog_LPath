@@ -509,9 +509,3 @@ requests
 - [Web Apps](https://azure.microsoft.com/en-us/products/app-service/web)
 - [App Service overview](https://learn.microsoft.com/en-us/azure/app-service/overview)
 
-| Golden Signal | Metric / Alerting  | 
-| --- | --- | 
-| Errors: Rate of failed requests |   |
-| Latency: Amount of time to service a request (performance) | |
-| Saturation: How close are you to 100% utilization? | |
-| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
