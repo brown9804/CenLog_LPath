@@ -65,12 +65,6 @@ Aug, 2022
 
 ## 4 Golden Signals 
 
-| Golden Signal | Metric / Alerting |
-| --- | --- | 
-| Latency: Amount of time to service a request | |
-| Traffic: Number of httpRequests/sessions/transactionsPerSec | | 
-| Saturation: How close are you to 100% utilization? | | 
-
 ### Errors 
 <img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/8ceaf2df-3feb-4a49-9610-9737e9252109">
 
@@ -82,12 +76,24 @@ Aug, 2022
 ### Saturation 
 <img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/915943a5-4264-4445-91a6-a8c61257a847">
 
+| Golden Signal | Metric / Alerting |
+| --- | --- | 
+| Saturation: How close are you to 100% utilization? | | 
+
 ### Latency 
 <img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/e4758766-3643-4b49-91d6-f5f08a498e7c">
+
+| Golden Signal | Metric / Alerting |
+| --- | --- | 
+| Latency: Amount of time to service a request | |
+
 
 ### Traffic 
 <img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/4292df0f-042b-4fe7-bb87-3f0d1c3eb96e">
 
+| Golden Signal | Metric / Alerting |
+| --- | --- | 
+| Traffic: Number of httpRequests/sessions/transactionsPerSec | | 
 
 
 ## Network configuration (Vnet/subnet)
