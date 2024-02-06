@@ -34,6 +34,7 @@ Aug, 2022
   - [WebApp](#webapp)
 
 <!-- /TOC -->
+
 ## Azure Monitor 
 
 - [Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
@@ -61,6 +62,32 @@ Aug, 2022
 
 - [Azure - Setting Up Azure Analysis Service (AAS)](https://microsoft-bitools.blogspot.com/2017/05/azure-setting-up-azure-analysis-server.html)
 - [Use Cases for Azure Analysis Services](https://www.sqlchick.com/entries/2016/11/29/use-cases-for-azure-analysis-services)
+
+## 4 Golden Signals 
+
+| Golden Signal | Metric / Alerting |
+| --- | --- | 
+| Latency: Amount of time to service a request | |
+| Traffic: Number of httpRequests/sessions/transactionsPerSec | | 
+| Saturation: How close are you to 100% utilization? | | 
+
+### Errors 
+<img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/8ceaf2df-3feb-4a49-9610-9737e9252109">
+
+| Golden Signal | Metric / Alerting |
+| --- | --- | 
+| Errors: Rate of failed requests | Most common errors <br/> List 10 most common errors over the last X days.  |  
+| Errors: Rate of failed requests | Operations causing most errors  <br/> List top 10 operations causing the most errors over the last X days.  |  
+
+### Saturation 
+<img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/915943a5-4264-4445-91a6-a8c61257a847">
+
+### Latency 
+<img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/e4758766-3643-4b49-91d6-f5f08a498e7c">
+
+### Traffic 
+<img width="250" alt="297213792-81003d72-0183-48fc-a692-f741d210b2fe" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/4292df0f-042b-4fe7-bb87-3f0d1c3eb96e">
+
 
 
 ## Network configuration (Vnet/subnet)
@@ -109,6 +136,33 @@ Aug, 2022
 
 - [Monitor Azure Data Lake Store](https://stackoverflow.com/questions/50324427/monitor-azure-data-lake-store)
 - [Monitoring Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage?tabs=azure-portal)
+
+### Errors 
+~~~
+// Most common errors 
+// List 10 most common errors over the last X days. 
+StorageBlobLogs
+| where TimeGenerated > ago({number_of_days}d) and StatusText !contains "Success"
+| summarize count() by StatusText
+| top 10 by count_ desc
+~~~
+
+~~~
+// Operations causing most errors 
+// List top 10 operations causing the most errors over the last X days. 
+StorageBlobLogs
+| where TimeGenerated > ago({number_of_days}d) and StatusText !contains "Success"
+| summarize count() by OperationName
+| top 10 by count_ desc
+~~~
+
+### Latency 
+
+### Traffic 
+
+### Saturation 
+
+
 
 ## Data Factory
 
