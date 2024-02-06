@@ -109,7 +109,8 @@ Aug, 2022
 | Saturation: How close are you to 100% utilization? | (-) No metric in place |
 | Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | (-) No metric in place |
 
-<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/432cd899-3d55-43fa-a961-7234e7db7e30">
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/60f6d509-d074-4707-934a-fa826b1f7f06">
+
 
 
 ## SQL Server + DB 
