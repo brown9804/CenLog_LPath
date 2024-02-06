@@ -85,7 +85,7 @@ Aug, 2022
 
 | Golden Signal | Metric / Alerting |
 | --- | --- | 
-| Latency: Amount of time to service a request | |
+| Latency: Amount of time to service a request (performance) | Operations with the highest latency <br/> List top 10 operations with the longest end to end latency over the last X days.  |
 
 
 ### Traffic 
@@ -163,6 +163,15 @@ StorageBlobLogs
 ~~~
 
 ### Latency 
+
+~~~
+// Operations with the highest latency 
+// List top 10 operations with the longest end to end latency over the last X days. 
+StorageBlobLogs
+| where TimeGenerated > ago({number_of_days}d)
+| top 10 by DurationMs desc
+| project TimeGenerated, OperationName, DurationMs, ServerLatencyMs, ClientLatencyMs = DurationMs - ServerLatencyMs
+~~~
 
 ### Traffic 
 
