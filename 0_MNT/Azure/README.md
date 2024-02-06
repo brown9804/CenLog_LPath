@@ -35,6 +35,15 @@ Aug, 2022
 
 <!-- /TOC -->
 
+## 4 Golden Signals 
+
+| Golden Signal | Hint | |
+| --- | --- | --- | 
+| Errors | Rate of failed requests | <img width="250" alt="24630902-444113d0-c84f-49aa-89b3-a9cd4cdf2af4" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/444113d0-c84f-49aa-89b3-a9cd4cdf2af4"> |
+| Latency | Amount of time to service a request (performance) | <img width="250" alt="24630902-cd4a44d7-b84d-4e5b-ac20-9652b6b27569" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/cd4a44d7-b84d-4e5b-ac20-9652b6b27569"> |
+| Saturation | How close are you to 100% utilization? | <img width="250" alt="24630902-7b16ce93-3e96-43f2-af16-1116ff063e0c" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7b16ce93-3e96-43f2-af16-1116ff063e0c"> | 
+| Traffic | Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | <img width="250" alt="24630902-e8a61fa8-e615-4a6d-aba0-fce454843e5d" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/e8a61fa8-e615-4a6d-aba0-fce454843e5d"> | 
+
 ## Azure Monitor 
 
 - [Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
@@ -62,15 +71,6 @@ Aug, 2022
 
 - [Azure - Setting Up Azure Analysis Service (AAS)](https://microsoft-bitools.blogspot.com/2017/05/azure-setting-up-azure-analysis-server.html)
 - [Use Cases for Azure Analysis Services](https://www.sqlchick.com/entries/2016/11/29/use-cases-for-azure-analysis-services)
-
-## 4 Golden Signals 
-
-| Golden Signal | Hint | |
-| --- | --- | --- | 
-| Errors | Rate of failed requests | <img width="250" alt="24630902-444113d0-c84f-49aa-89b3-a9cd4cdf2af4" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/444113d0-c84f-49aa-89b3-a9cd4cdf2af4"> |
-| Latency | Amount of time to service a request (performance) | <img width="250" alt="24630902-cd4a44d7-b84d-4e5b-ac20-9652b6b27569" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/cd4a44d7-b84d-4e5b-ac20-9652b6b27569"> |
-| Saturation | How close are you to 100% utilization? | <img width="250" alt="24630902-7b16ce93-3e96-43f2-af16-1116ff063e0c" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7b16ce93-3e96-43f2-af16-1116ff063e0c"> | 
-| Traffic | Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | <img width="250" alt="24630902-e8a61fa8-e615-4a6d-aba0-fce454843e5d" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/e8a61fa8-e615-4a6d-aba0-fce454843e5d"> | 
 
 ## Network configuration (Vnet/subnet)
 
