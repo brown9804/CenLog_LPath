@@ -304,11 +304,102 @@ StorageBlobLogs
 
 | Golden Signal | Metric / Alerting  | 
 | --- | --- | 
-| Errors: Rate of failed requests |   |
-| Latency: Amount of time to service a request (performance) | |
-| Saturation: How close are you to 100% utilization? | |
-| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
+| Errors: Rate of failed requests | Activity runs Top 5 Failures <br/> Returns Top 5 Activitys failing with systemErrors.   |
+| Errors: Rate of failed requests |  Pipeline runs Top 5 Failures <br/> Returns Top 5 pipelines failing with systemErrors. | 
+| Errors: Rate of failed requests |  Trigger runs Top 5 Failures <br/> Returns Top 5 Triggers failing with systemErrors.  | 
+| Saturation: How close are you to 100% utilization? | Activity Runs Availability <br/> Gives the availability of the Activity Runs. | 
+| Saturation: How close are you to 100% utilization? | PipelineRuns Availability <br/> Gives the availability of the Pipeline Runs. |
+| Saturation: How close are you to 100% utilization? | TriggerRuns Availability <br/> Gives the availability of the Trigger Runs.|
 
+~~~
+// Errors
+// Activity runs Top 5 Failures 
+// Returns Top 5 Activitys failing with systemErrors. 
+let name = ADFActivityRun
+| where Status != 'InProgress' and Status != 'Queued'
+| where FailureType != 'UserError'
+| summarize failureCount = countif(Status != 'Succeeded') by ActivityName
+| top 5 by failureCount desc nulls last
+| where failureCount != 0
+| project ActivityName;
+ADFActivityRun 
+| where TimeGenerated >= ago(24h)
+| where Status != 'InProgress' and Status != 'Queued'
+| where FailureType != 'UserError'
+| where ActivityName  in (name)
+| summarize failureCount = countif(Status != 'Succeeded') by bin(TimeGenerated, 1h), ActivityName
+| order by TimeGenerated asc
+| render timechart
+// ---------------- | --------------- | --------------
+// Pipeline runs Top 5 Failures
+// Returns Top 5 pipelines failing with systemErrors. 
+let name = ADFPipelineRun
+| where Status != 'InProgress' and Status != 'Queued'
+| where FailureType != 'UserError'
+| summarize failureCount = countif(Status != 'Succeeded') by PipelineName
+| top 5 by failureCount desc nulls last
+| where failureCount != 0
+| project PipelineName;
+ADFPipelineRun 
+| where TimeGenerated >= ago(24h)
+| where Status != 'InProgress' and Status != 'Queued'
+| where FailureType != 'UserError'
+| where PipelineName  in (name)
+| summarize failureCount = countif(Status != 'Succeeded') by bin(TimeGenerated, 1h), PipelineName
+| order by TimeGenerated asc
+| render timechart
+// ---------------- | --------------- | --------------
+// Trigger runs Top 5 Failures 
+// Returns Top 5 Triggers failing with systemErrors. 
+let name = ADFTriggerRun
+| where Status != 'Running' and Status != 'Waiting' and Status != 'WaitingOnDependency'
+| where TriggerFailureType != 'UserError'
+| summarize failureCount = countif(Status != 'Succeeded') by TriggerName
+| top 5 by failureCount desc nulls last
+| where failureCount != 0
+| project TriggerName;
+ADFTriggerRun 
+| where TimeGenerated >= ago(24h)
+| where Status != 'Running' and Status != 'Waiting' and Status != 'WaitingOnDependency'
+| where TriggerFailureType != 'UserError'
+| where TriggerName  in (name)
+| summarize failureCount = countif(Status != 'Succeeded') by bin(TimeGenerated, 1h), TriggerName
+| order by TimeGenerated asc
+| render timechart
+~~~
+
+~~~
+// Saturation
+// Activity Runs Availability 
+// Gives the availability of the Activity Runs. 
+// To create an alert for this query, click '+ New alert rule'
+ADFActivityRun
+| where Status != 'InProgress' and Status != 'Queued'
+| where FailureType != 'UserError'
+| summarize availability = 100.00 - (100.00*countif(Status != 'Succeeded') / count())  by bin(TimeGenerated, 1h)), _ResourceId
+| order by TimeGenerated asc
+| render timechart
+// ---------------- | --------------- | --------------
+// PipelineRuns Availability 
+// Gives the availability of the Pipeline Runs. 
+// To create an alert for this query, click '+ New alert rule'
+ADFPipelineRun
+| where Status != 'InProgress' and Status != 'Queued'
+| where FailureType != 'UserError'
+| summarize availability = 100.00 - (100.00*countif(Status != 'Succeeded') / count())  by bin(TimeGenerated, 1h)), _ResourceId
+| order by TimeGenerated asc
+| render timechart
+// ---------------- | --------------- | --------------
+// TriggerRuns Availability 
+// Gives the availability of the Trigger Runs. 
+// To create an alert for this query, click '+ New alert rule'
+ADFTriggerRun
+| where Status != 'Running' and Status != 'Waiting' and Status != 'WaitingOnDependency'
+| where TriggerFailureType != 'UserError'
+| summarize availability = 100.00 - (100.00*countif(Status != 'Succeeded') / count())  by bin(TimeGenerated, 1h)), _ResourceId
+| order by TimeGenerated asc
+| render timechart
+~~~
 
 ## WebApp 
 
