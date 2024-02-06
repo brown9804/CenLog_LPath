@@ -19,16 +19,19 @@ Aug, 2022
 <!-- TOC -->
 
 - [Monitoring Azure Resources](#monitoring-azure-resources)
+  - [4 Golden Signals](#4-golden-signals)
   - [Azure Monitor](#azure-monitor)
   - [Azure Log Analytics](#azure-log-analytics)
   - [Azure Analysis Services](#azure-analysis-services)
+- [Metrics \& Alerting](#metrics--alerting)
   - [Network configuration (Vnet/subnet)](#network-configuration-vnetsubnet)
-  - [Logic App Standard](#logic-app-standard)
-  - [Function App](#function-app)
   - [SQL Server + DB](#sql-server--db)
   - [DataLake](#datalake)
   - [Data Factory](#data-factory)
-  - [WebApp](#webapp)
+  - [App Service](#app-service)
+    - [Logic App Standard](#logic-app-standard)
+    - [Function App](#function-app)
+    - [WebApp](#webapp)
 
 <!-- /TOC -->
 
