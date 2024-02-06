@@ -216,10 +216,44 @@ requests
 
 | Golden Signal | Metric / Alerting  | 
 | --- | --- | 
-| Errors: Rate of failed requests |   |
-| Latency: Amount of time to service a request (performance) | |
-| Saturation: How close are you to 100% utilization? | |
-| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
+| Saturation: How close are you to 100% utilization? | Avg CPU usage in the last hour by resource name. Consistently high averages could indicate a customer needs to move to a larger SKU |
+| Saturation: How close are you to 100% utilization? | Performance troubleshooting <br/> Potentially query or deadlock on the system that could lead to poor performance. |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Loading Data <br/> Monitor data loading in the last hour.  |
+
+~~~
+// Saturation
+// Avg CPU usage 
+// Avg CPU usage in the last hour by resource name. 
+// consistently high averages could indicate a customer needs to move to a larger SKU
+AzureMetrics
+| where ResourceProvider == "MICROSOFT.SQL" // /DATABASES
+| where TimeGenerated >= ago(60min)
+| where MetricName in ('cpu_percent') 
+| parse _ResourceId with * "/microsoft.sql/servers/" Resource  // subtract Resource name for _ResourceId
+| summarize CPU_Maximum_last15mins = max(Maximum), CPU_Minimum_last15mins = min(Minimum), CPU_Average_last15mins = avg(Average) by Resource , MetricName
+// ---------------- | --------------- | --------------
+// Performance troubleshooting 
+// Potentially query or deadlock on the system that could lead to poor performance. 
+//potentially a query or deadlock on the system that could lead to poor performance
+AzureMetrics
+| where ResourceProvider == "MICROSOFT.SQL"
+| where TimeGenerated >=ago(60min)
+| where MetricName in ('deadlock')
+| parse _ResourceId with * "/microsoft.sql/servers/" Resource // subtract Resource name for _ResourceId
+| summarize Deadlock_max_60Mins = max(Maximum) by Resource, MetricName
+~~~
+
+~~~
+Traffic
+// Loading Data 
+// Monitor data loading in the last hour. 
+AzureMetrics
+| where ResourceProvider == "MICROSOFT.SQL"
+| where TimeGenerated >= ago(60min)
+| where MetricName in ('log_write_percent')
+| parse _ResourceId with * "/microsoft.sql/servers/" Resource// subtract Resource name for _ResourceId
+| summarize Log_Maximum_last60mins = max(Maximum), Log_Minimum_last60mins = min(Minimum), Log_Average_last60mins = avg(Average) by Resource, MetricName
+~~~
 
 ## DataLake 
 
