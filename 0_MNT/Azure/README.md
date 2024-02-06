@@ -125,8 +125,6 @@ Aug, 2022
 | Errors: Rate of failed requests | Operations causing most errors  <br/> List top 10 operations causing the most errors over the last X days.  |  
 | Latency: Amount of time to service a request (performance) | Operations with the highest latency <br/> List top 10 operations with the longest end to end latency over the last X days.  |
 
-
-
 ~~~
 // Errors 
 // Most common errors 
@@ -156,12 +154,6 @@ StorageBlobLogs
 | top 10 by DurationMs desc
 | project TimeGenerated, OperationName, DurationMs, ServerLatencyMs, ClientLatencyMs = DurationMs - ServerLatencyMs
 ~~~
-
-### Traffic 
-
-### Saturation 
-
-
 
 ## Data Factory
 
