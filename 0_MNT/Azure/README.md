@@ -14,6 +14,21 @@ Aug, 2022
 
 `Azure Monitor and Log Analytics collectively offer a robust solution for monitoring Azure resources. While Azure Monitor provides a lot of features including aggregation of logs, real-time insights and performance metrics, Log Analytics allows advanced query capabilities and extensive log data analysis.`
 
+<!-- TOC -->
+
+- [Monitoring Azure Resources](#monitoring-azure-resources)
+  - [Azure Monitor](#azure-monitor)
+  - [Azure Log Analytics](#azure-log-analytics)
+  - [Azure Analysis Services](#azure-analysis-services)
+  - [Network configuration (Vnet/subnet)](#network-configuration-vnetsubnet)
+  - [Logic App Standard](#logic-app-standard)
+  - [Function App](#function-app)
+  - [SQL Server + DB](#sql-server--db)
+  - [Data Lake](#data-lake)
+  - [Data Factory](#data-factory)
+  - [WebApp](#webapp)
+
+<!-- /TOC -->
 ## Azure Monitor 
 
 - [Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
