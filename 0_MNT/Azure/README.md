@@ -73,6 +73,8 @@ Aug, 2022
 - [Azure - Setting Up Azure Analysis Service (AAS)](https://microsoft-bitools.blogspot.com/2017/05/azure-setting-up-azure-analysis-server.html)
 - [Use Cases for Azure Analysis Services](https://www.sqlchick.com/entries/2016/11/29/use-cases-for-azure-analysis-services)
 
+# Metrics & Alerting
+
 ## Network configuration (Vnet/subnet)
 
 - [Monitoring Azure virtual network](https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network)
@@ -103,199 +105,6 @@ Aug, 2022
 | Latency: Amount of time to service a request (performance) | |
 | Saturation: How close are you to 100% utilization? | |
 | Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
-
-## Logic App Standard 
-
-- [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
-- [Monitor and collect diagnostic data for workflows in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-workflows-collect-diagnostic-data?tabs=consumption)
-- [Monitor workflow run status, review trigger and workflow run history, and set up alerts in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-logic-apps?tabs=consumption)
-
-| Golden Signal | Metric / Alerting  | 
-| --- | --- | 
-| Errors: Rate of failed requests | Failing dependencies <br/> Which 5 dependencies failed the most today?  |
-| Errors: Rate of failed requests | Failed requests – top 10 <br/> What are the 3 slowest pages, and how slow are they? |
-| Errors: Rate of failed requests | Failed operations <br/> Calculate how many times operations failed, and how many users were impacted. |
-| Errors: Rate of failed requests | Exceptions causing request failures <br/> Find which exceptions led to failed requests in the past hour. |
-| Latency: Amount of time to service a request (performance) | Response time buckets <br/> Show how many requests are in each performance-bucket.  |
-| Latency: Amount of time to service a request (performance) | Response time trend <br/> Chart request duration over the last 12 hours.  | 
-| Saturation: How close are you to 100% utilization? | Operations performance <br/> Calculate request count and duration by operations.  |
-| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Request count trend <br/> Chart Request count over the last day.  |
-
-~~~
-// Errors
-// Exceptions causing request failures 
-// Find which exceptions led to failed requests in the past hour. 
-requests
-| where timestamp > ago(1h) and success == false
-| join kind= inner (
-exceptions
-| where timestamp > ago(1h)
-) on operation_Id
-| project exceptionType = type, failedMethod = method, requestName = name, requestDuration = duration
-// ---------------- | --------------- | --------------
-
-// Failed operations 
-// Calculate how many times operations failed, and how many users were impacted. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| where success == false
-| summarize failedCount=sum(itemCount), impactedUsers=dcount(user_Id) by operation_Name
-| order by failedCount desc
-// ---------------- | --------------- | --------------
-
-// Failed requests – top 10 
-// What are the 3 slowest pages, and how slow are they? 
-requests
-| where success == false
-| summarize failedCount=sum(itemCount) by name
-| top 10 by failedCount desc
-| render barchart
-
-// ---------------- | --------------- | --------------
-// Failing dependencies 
-// Which 5 dependencies failed the most today? 
-dependencies
-| where success == false
-| summarize totalCount=sum(itemCount) by type
-| top 5 by totalCount desc
-~~~
-
-~~~
-// Latency
-// Response time buckets 
-// Show how many requests are in each performance-bucket. 
-requests
-| summarize requestCount=sum(itemCount), avgDuration=avg(duration) by performanceBucket
-| order by avgDuration asc // sort by average request duration
-| project-away avgDuration // no need to display avgDuration, we used it only for sorting results
-| render barchart
-// ---------------- | --------------- | --------------
-
-// Response time trend 
-// Chart request duration over the last 12 hours. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| where timestamp > ago(12h) 
-| summarize avgRequestDuration=avg(duration) by bin(timestamp, 10m) // use a time grain of 10 minutes
-| render timechart
-~~~
-
-~~~
-// Saturation 
-// Operations performance 
-// Calculate request count and duration by operations. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| summarize RequestsCount=sum(itemCount), AverageDuration=avg(duration), percentiles(duration, 50, 95, 99) by operation_Name // you can replace 'operation_Name' with another value to segment by a different property
-| order by RequestsCount desc // order from highest to lower (descending)
-~~~
-
-~~~
-// Traffic 
-// Request count trend 
-// Chart Request count over the last day. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| summarize totalCount=sum(itemCount) by bin(timestamp, 30m)
-| render timechart
-~~~
-
-
-## Function App 
-
-- [Monitoring Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/monitor-functions?tabs=portal)
-- [How to configure monitoring for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring?tabs=v2)
-
-| Golden Signal | Metric / Alerting  | 
-| --- | --- | 
-| Errors: Rate of failed requests | Exceptions causing request failures <br/> Find which exceptions led to failed requests in the past hour.  |
-| Errors: Rate of failed requests | Failed operations <br/> Calculate how many times operations failed, and how many users were impacted.  | 
-| Errors: Rate of failed requests | Failed requests – top 10 <br/> What are the 3 slowest pages, and how slow are they? |
-| Errors: Rate of failed requests | Failing dependencies <br/> Which 5 dependencies failed the most today?  | 
-| Latency: Amount of time to service a request (performance) | Response time trend <br/> Chart request duration over the last X hours.    |
-| Latency: Amount of time to service a request (performance) | Response time buckets <br/> Show how many requests are in each performance-bucket. |
-| Saturation: How close are you to 100% utilization? | Operations performance <br/> Calculate request count and duration by operations.  |
-| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Request count trend <br/> Chart Request count over the last day.  |
-
-~~~
-// Errors
-// Exceptions causing request failures 
-// Find which exceptions led to failed requests in the past hour. 
-requests
-| where timestamp > ago(1h) and success == false
-| join kind= inner (
-exceptions
-| where timestamp > ago(1h)
-) on operation_Id
-| project exceptionType = type, failedMethod = method, requestName = name, requestDuration = duration
-// ---------------- | --------------- | --------------
-
-// Failed operations 
-// Calculate how many times operations failed, and how many users were impacted. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| where success == false
-| summarize failedCount=sum(itemCount), impactedUsers=dcount(user_Id) by operation_Name
-| order by failedCount desc
-// ---------------- | --------------- | --------------
-
-// Failed requests – top 10 
-// What are the 3 slowest pages, and how slow are they? 
-requests
-| where success == false
-| summarize failedCount=sum(itemCount) by name
-| top 10 by failedCount desc
-| render barchart
-// ---------------- | --------------- | --------------
-
-// Failing dependencies 
-// Which 5 dependencies failed the most today? 
-dependencies
-| where success == false
-| summarize totalCount=sum(itemCount) by type
-| top 5 by totalCount desc
-~~~
-
-~~~
-// Latency
-// Response time buckets 
-// Show how many requests are in each performance-bucket. 
-requests
-| summarize requestCount=sum(itemCount), avgDuration=avg(duration) by performanceBucket
-| order by avgDuration asc // sort by average request duration
-| project-away avgDuration // no need to display avgDuration, we used it only for sorting results
-| render barchart
-// ---------------- | --------------- | --------------
-
-// Response time trend 
-// Chart request duration over the last 12 hours. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| where timestamp > ago(12h) 
-| summarize avgRequestDuration=avg(duration) by bin(timestamp, 10m) // use a time grain of 10 minutes
-| render timechart
-
-~~~
-
-~~~
-// Saturation
-// Operations performance 
-// Calculate request count and duration by operations. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| summarize RequestsCount=sum(itemCount), AverageDuration=avg(duration), percentiles(duration, 50, 95, 99) by operation_Name // you can replace 'operation_Name' with another value to segment by a different property
-| order by RequestsCount desc // order from highest to lower (descending)
-~~~
-
-~~~
-// Traffic
-// Request count trend 
-// Chart Request count over the last day. 
-// To create an alert for this query, click '+ New alert rule'
-requests
-| summarize totalCount=sum(itemCount) by bin(timestamp, 30m)
-| render timechart
-~~~
 
 ## SQL Server + DB 
 
@@ -494,7 +303,203 @@ ADFTriggerRun
 | render timechart
 ~~~
 
-## WebApp 
+## App Service  
+
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/4a7752a3-b98c-4a2d-a321-5f6915efdfb2">
+
+### Logic App Standard 
+
+- [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
+- [Monitor and collect diagnostic data for workflows in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-workflows-collect-diagnostic-data?tabs=consumption)
+- [Monitor workflow run status, review trigger and workflow run history, and set up alerts in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-logic-apps?tabs=consumption)
+
+| Golden Signal | Metric / Alerting  | 
+| --- | --- | 
+| Errors: Rate of failed requests | Failing dependencies <br/> Which 5 dependencies failed the most today?  |
+| Errors: Rate of failed requests | Failed requests – top 10 <br/> What are the 3 slowest pages, and how slow are they? |
+| Errors: Rate of failed requests | Failed operations <br/> Calculate how many times operations failed, and how many users were impacted. |
+| Errors: Rate of failed requests | Exceptions causing request failures <br/> Find which exceptions led to failed requests in the past hour. |
+| Latency: Amount of time to service a request (performance) | Response time buckets <br/> Show how many requests are in each performance-bucket.  |
+| Latency: Amount of time to service a request (performance) | Response time trend <br/> Chart request duration over the last 12 hours.  | 
+| Saturation: How close are you to 100% utilization? | Operations performance <br/> Calculate request count and duration by operations.  |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Request count trend <br/> Chart Request count over the last day.  |
+
+~~~
+// Errors
+// Exceptions causing request failures 
+// Find which exceptions led to failed requests in the past hour. 
+requests
+| where timestamp > ago(1h) and success == false
+| join kind= inner (
+exceptions
+| where timestamp > ago(1h)
+) on operation_Id
+| project exceptionType = type, failedMethod = method, requestName = name, requestDuration = duration
+// ---------------- | --------------- | --------------
+
+// Failed operations 
+// Calculate how many times operations failed, and how many users were impacted. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| where success == false
+| summarize failedCount=sum(itemCount), impactedUsers=dcount(user_Id) by operation_Name
+| order by failedCount desc
+// ---------------- | --------------- | --------------
+
+// Failed requests – top 10 
+// What are the 3 slowest pages, and how slow are they? 
+requests
+| where success == false
+| summarize failedCount=sum(itemCount) by name
+| top 10 by failedCount desc
+| render barchart
+
+// ---------------- | --------------- | --------------
+// Failing dependencies 
+// Which 5 dependencies failed the most today? 
+dependencies
+| where success == false
+| summarize totalCount=sum(itemCount) by type
+| top 5 by totalCount desc
+~~~
+
+~~~
+// Latency
+// Response time buckets 
+// Show how many requests are in each performance-bucket. 
+requests
+| summarize requestCount=sum(itemCount), avgDuration=avg(duration) by performanceBucket
+| order by avgDuration asc // sort by average request duration
+| project-away avgDuration // no need to display avgDuration, we used it only for sorting results
+| render barchart
+// ---------------- | --------------- | --------------
+
+// Response time trend 
+// Chart request duration over the last 12 hours. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| where timestamp > ago(12h) 
+| summarize avgRequestDuration=avg(duration) by bin(timestamp, 10m) // use a time grain of 10 minutes
+| render timechart
+~~~
+
+~~~
+// Saturation 
+// Operations performance 
+// Calculate request count and duration by operations. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| summarize RequestsCount=sum(itemCount), AverageDuration=avg(duration), percentiles(duration, 50, 95, 99) by operation_Name // you can replace 'operation_Name' with another value to segment by a different property
+| order by RequestsCount desc // order from highest to lower (descending)
+~~~
+
+~~~
+// Traffic 
+// Request count trend 
+// Chart Request count over the last day. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| summarize totalCount=sum(itemCount) by bin(timestamp, 30m)
+| render timechart
+~~~
+
+### Function App 
+
+- [Monitoring Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/monitor-functions?tabs=portal)
+- [How to configure monitoring for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring?tabs=v2)
+
+| Golden Signal | Metric / Alerting  | 
+| --- | --- | 
+| Errors: Rate of failed requests | Exceptions causing request failures <br/> Find which exceptions led to failed requests in the past hour.  |
+| Errors: Rate of failed requests | Failed operations <br/> Calculate how many times operations failed, and how many users were impacted.  | 
+| Errors: Rate of failed requests | Failed requests – top 10 <br/> What are the 3 slowest pages, and how slow are they? |
+| Errors: Rate of failed requests | Failing dependencies <br/> Which 5 dependencies failed the most today?  | 
+| Latency: Amount of time to service a request (performance) | Response time trend <br/> Chart request duration over the last X hours.    |
+| Latency: Amount of time to service a request (performance) | Response time buckets <br/> Show how many requests are in each performance-bucket. |
+| Saturation: How close are you to 100% utilization? | Operations performance <br/> Calculate request count and duration by operations.  |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Request count trend <br/> Chart Request count over the last day.  |
+
+~~~
+// Errors
+// Exceptions causing request failures 
+// Find which exceptions led to failed requests in the past hour. 
+requests
+| where timestamp > ago(1h) and success == false
+| join kind= inner (
+exceptions
+| where timestamp > ago(1h)
+) on operation_Id
+| project exceptionType = type, failedMethod = method, requestName = name, requestDuration = duration
+// ---------------- | --------------- | --------------
+
+// Failed operations 
+// Calculate how many times operations failed, and how many users were impacted. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| where success == false
+| summarize failedCount=sum(itemCount), impactedUsers=dcount(user_Id) by operation_Name
+| order by failedCount desc
+// ---------------- | --------------- | --------------
+
+// Failed requests – top 10 
+// What are the 3 slowest pages, and how slow are they? 
+requests
+| where success == false
+| summarize failedCount=sum(itemCount) by name
+| top 10 by failedCount desc
+| render barchart
+// ---------------- | --------------- | --------------
+
+// Failing dependencies 
+// Which 5 dependencies failed the most today? 
+dependencies
+| where success == false
+| summarize totalCount=sum(itemCount) by type
+| top 5 by totalCount desc
+~~~
+
+~~~
+// Latency
+// Response time buckets 
+// Show how many requests are in each performance-bucket. 
+requests
+| summarize requestCount=sum(itemCount), avgDuration=avg(duration) by performanceBucket
+| order by avgDuration asc // sort by average request duration
+| project-away avgDuration // no need to display avgDuration, we used it only for sorting results
+| render barchart
+// ---------------- | --------------- | --------------
+
+// Response time trend 
+// Chart request duration over the last 12 hours. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| where timestamp > ago(12h) 
+| summarize avgRequestDuration=avg(duration) by bin(timestamp, 10m) // use a time grain of 10 minutes
+| render timechart
+
+~~~
+
+~~~
+// Saturation
+// Operations performance 
+// Calculate request count and duration by operations. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| summarize RequestsCount=sum(itemCount), AverageDuration=avg(duration), percentiles(duration, 50, 95, 99) by operation_Name // you can replace 'operation_Name' with another value to segment by a different property
+| order by RequestsCount desc // order from highest to lower (descending)
+~~~
+
+~~~
+// Traffic
+// Request count trend 
+// Chart Request count over the last day. 
+// To create an alert for this query, click '+ New alert rule'
+requests
+| summarize totalCount=sum(itemCount) by bin(timestamp, 30m)
+| render timechart
+~~~
+
+### WebApp 
 
 - [Web Apps](https://azure.microsoft.com/en-us/products/app-service/web)
 - [App Service overview](https://learn.microsoft.com/en-us/azure/app-service/overview)
