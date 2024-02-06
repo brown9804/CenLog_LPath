@@ -104,10 +104,13 @@ Aug, 2022
 
 | Golden Signal | Metric / Alerting  | 
 | --- | --- | 
-| Errors: Rate of failed requests |   |
-| Latency: Amount of time to service a request (performance) | |
-| Saturation: How close are you to 100% utilization? | |
-| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec |  |
+| Errors: Rate of failed requests | (-) No metric in place|
+| Latency: Amount of time to service a request (performance) | (-) No metric in place |
+| Saturation: How close are you to 100% utilization? | (-) No metric in place |
+| Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | (-) No metric in place |
+
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/432cd899-3d55-43fa-a961-7234e7db7e30">
+
 
 ## SQL Server + DB 
 
