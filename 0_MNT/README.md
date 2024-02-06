@@ -38,6 +38,10 @@ Aug, 2022
 
 <img width="1438" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/36b5b7ba-6075-40b4-b8f4-2e7f68063cd1">
 
+- [The four Golden Signals of Monitoring](https://sysdig.com/blog/golden-signals-kubernetes/)
+
+<img width="1145" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/174d6e52-f095-41bf-bec1-ca230c02b1f8">
+
 ## Terraform Cloud Monitoring 
 
 - [Terraform Cloud for Splunk setup instructions](https://developer.hashicorp.com/terraform/cloud-docs/integrations/splunk)
