@@ -52,6 +52,8 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 
 ## Azure Monitor 
 
+Click [here](#monitoring-azure-resources) to go to the Content List
+
 - [Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
 
 <img width="900" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/7dcd0959-db55-4c45-8654-6292a19f0bd7">
@@ -60,6 +62,8 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 
 
 ## Azure Log Analytics 
+
+Click [here](#monitoring-azure-resources) to go to the Content List
 
 - [Log Analytics tutorial](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial)
   
@@ -71,6 +75,8 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 
 ## Azure Analysis Services
 
+Click [here](#monitoring-azure-resources) to go to the Content List
+
 - [Analysis Services tools](https://learn.microsoft.com/en-us/analysis-services/tools-and-applications-used-in-analysis-services?view=azure-analysis-services-current)
   
 <img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/a5b620c5-19ae-4e68-9b92-1e87f1b177ab">
@@ -81,6 +87,8 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 # Metrics & Alerting
 
 ## Network configuration (Vnet/subnet)
+
+Click [here](#monitoring-azure-resources) to go to the Content List
 
 - [Monitoring Azure virtual network](https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network)
 - [Azure Virtual Network (VNet) monitoring integration insights](https://www.site24x7.com/help/azure/virtual-network-monitoring.html#metrics)
@@ -114,6 +122,8 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 <img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/facc45b9-0b81-4cf0-88cb-222c863bfad2">
 
 ## SQL Server + DB 
+
+Click [here](#monitoring-azure-resources) to go to the Content List
 
 - [Monitor Azure SQL Database with Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-sql-database-azure-monitor?view=azuresql)
 - [Monitor Azure SQL Database with metrics and alerts](https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-metrics-alerts?view=azuresql-db)
@@ -163,6 +173,8 @@ AzureMetrics
 
 ## DataLake 
 
+Click [here](#monitoring-azure-resources) to go to the Content List
+
 - [Monitor Azure Data Lake Store](https://stackoverflow.com/questions/50324427/monitor-azure-data-lake-store)
 - [Monitoring Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage?tabs=azure-portal)
   
@@ -201,6 +213,8 @@ StorageBlobLogs
 ~~~
 
 ## Data Factory
+
+Click [here](#monitoring-azure-resources) to go to the Content List
 
 - [Create alerts to proactively monitor your data factory pipelines](https://azure.microsoft.com/en-us/blog/create-alerts-to-proactively-monitor-your-data-factory-pipelines/)
 - [Monitor and Alert Data Factory by using Azure Monitor](https://learn.microsoft.com/en-us/azure/data-factory/monitor-using-azure-monitor)
@@ -312,9 +326,14 @@ ADFTriggerRun
 
 ## App Service  
 
+Click [here](#monitoring-azure-resources) to go to the Content List
+
 <img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/4a7752a3-b98c-4a2d-a321-5f6915efdfb2">
 
 ### Logic App Standard 
+
+Click [here](#monitoring-azure-resources) to go to the Content List
+
 
 - [Monitoring Azure Logic Apps (Standard) with Azure Monitor Logs (Preview)](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/monitoring-azure-logic-apps-standard-with-azure-monitor-logs/ba-p/3746881)
 - [Monitor and collect diagnostic data for workflows in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/monitor-workflows-collect-diagnostic-data?tabs=consumption)
@@ -412,6 +431,8 @@ requests
 
 ### Function App 
 
+Click [here](#monitoring-azure-resources) to go to the Content List
+
 - [Monitoring Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/monitor-functions?tabs=portal)
 - [How to configure monitoring for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring?tabs=v2)
 
@@ -507,6 +528,8 @@ requests
 ~~~
 
 ### WebApp 
+
+Click [here](#monitoring-azure-resources) to go to the Content List
 
 - [Web Apps](https://azure.microsoft.com/en-us/products/app-service/web)
 - [App Service overview](https://learn.microsoft.com/en-us/azure/app-service/overview)
