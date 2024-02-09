@@ -435,7 +435,7 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 
 - [Monitoring Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/monitor-functions?tabs=portal)
 - [How to configure monitoring for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring?tabs=v2)
-
+  
 | Golden Signal | Metric / Alerting  | 
 | --- | --- | 
 | Errors: Rate of failed requests | Exceptions causing request failures <br/> Find which exceptions led to failed requests in the past hour.  |
@@ -526,6 +526,12 @@ requests
 | summarize totalCount=sum(itemCount) by bin(timestamp, 30m)
 | render timechart
 ~~~
+
+- [Monitoring Azure Functions with Application Insights](https://link.springer.com/chapter/10.1007/978-1-4842-5067-9_9)
+- [How To Integrate Application Insights Into Azure Functions](https://www.c-sharpcorner.com/article/how-to-integrate-application-insights-into-azure-functions/)
+
+<img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/a84b3b71-1b74-4dc9-b0ac-5dc85caa4014">
+
 
 ### WebApp 
 
