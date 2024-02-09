@@ -41,6 +41,8 @@ Aug, 2022
 
 ## 4 Golden Signals 
 
+Click [here](#monitoring-azure-resources) to go to the Content List
+
 | Golden Signal | Hint | |
 | --- | --- | --- | 
 | Errors | Rate of failed requests | <img width="250" alt="24630902-444113d0-c84f-49aa-89b3-a9cd4cdf2af4" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/444113d0-c84f-49aa-89b3-a9cd4cdf2af4"> |
