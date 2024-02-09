@@ -429,6 +429,10 @@ requests
 | render timechart
 ~~~
 
+- [Sending Your Azure Application Insights Alerts to Team Sites using Azure Logic App](https://dailydotnettips.com/sending-your-azure-application-insights-alerts-to-team-sites-using-azure-logic-app/)
+  
+  <img width="600" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/3b5728d0-ec51-43b2-8ad0-a2bf12ee4bce">
+
 ### Function App 
 
 Click [here](#monitoring-azure-resources) to go to the Content List
