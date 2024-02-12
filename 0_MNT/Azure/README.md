@@ -347,7 +347,7 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 | Errors: Rate of failed requests | Exceptions causing request failures <br/> Find which exceptions led to failed requests in the past hour. |
 | Latency: Amount of time to service a request (performance) | Response time buckets <br/> Show how many requests are in each performance-bucket.  |
 | Latency: Amount of time to service a request (performance) | Response time trend <br/> Chart request duration over the last 12 hours.  | 
-| Saturation: How close are you to 100% utilization? | Operations performance <br/> Calculate request count and duration by operations.  |
+| Latency: Amount of time to service a request (performance) | Operations performance <br/> Calculate request count and duration by operations.  |
 | Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Request count trend <br/> Chart Request count over the last day.  |
 
 ~~~
@@ -407,10 +407,8 @@ requests
 | where timestamp > ago(12h) 
 | summarize avgRequestDuration=avg(duration) by bin(timestamp, 10m) // use a time grain of 10 minutes
 | render timechart
-~~~
+// ---------------- | --------------- | --------------
 
-~~~
-// Saturation 
 // Operations performance 
 // Calculate request count and duration by operations. 
 // To create an alert for this query, click '+ New alert rule'
@@ -448,7 +446,7 @@ Click [here](#monitoring-azure-resources) to go to the Content List
 | Errors: Rate of failed requests | Failing dependencies <br/> Which 5 dependencies failed the most today?  | 
 | Latency: Amount of time to service a request (performance) | Response time trend <br/> Chart request duration over the last X hours.    |
 | Latency: Amount of time to service a request (performance) | Response time buckets <br/> Show how many requests are in each performance-bucket. |
-| Saturation: How close are you to 100% utilization? | Operations performance <br/> Calculate request count and duration by operations.  |
+| Latency: Amount of time to service a request (performance) | Operations performance <br/> Calculate request count and duration by operations.  |
 | Traffic: Number of: <br/> - httpRequests <br/> - sessions <br/> - transactionsPerSec | Request count trend <br/> Chart Request count over the last day.  |
 
 ~~~
@@ -508,11 +506,8 @@ requests
 | where timestamp > ago(12h) 
 | summarize avgRequestDuration=avg(duration) by bin(timestamp, 10m) // use a time grain of 10 minutes
 | render timechart
+// ---------------- | --------------- | --------------
 
-~~~
-
-~~~
-// Saturation
 // Operations performance 
 // Calculate request count and duration by operations. 
 // To create an alert for this query, click '+ New alert rule'
