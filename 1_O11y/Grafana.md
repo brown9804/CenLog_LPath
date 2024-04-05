@@ -51,6 +51,7 @@ Aug, 2022
 - Grafana - [Microsoft SQL Server query editor](https://grafana.com/docs/grafana/latest/datasources/mssql/query-editor/)
 - Grafana - [Show column values as comma seperated in grafana](https://stackoverflow.com/questions/71778725/show-column-values-as-comma-seperated-in-grafana)
 - Grafana - [How to build Azure Monitor data source connection](https://grafana.com/docs/grafana/latest/datasources/azure-monitor/)
+- Grafana - [Obtain Azure Tenant ID (Directory ID)](https://docs.tenable.com/vulnerability-management/Content/Settings/cloud-connectors/Azure/Configuration/TenantID.htm)
 
 ## Grafana OSS Stack
 
