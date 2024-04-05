@@ -50,6 +50,7 @@ Aug, 2022
 - Grafana - [How to Join columns from two different tables from sql database and present it as a single table in grafana](https://community.grafana.com/t/how-to-join-columns-from-two-different-tables-from-sql-database-and-present-it-as-a-single-table-in-grafana/76317/1)
 - Grafana - [Microsoft SQL Server query editor](https://grafana.com/docs/grafana/latest/datasources/mssql/query-editor/)
 - Grafana - [Show column values as comma seperated in grafana](https://stackoverflow.com/questions/71778725/show-column-values-as-comma-seperated-in-grafana)
+- Grafana - [How to build Azure Monitor data source connection](https://grafana.com/docs/grafana/latest/datasources/azure-monitor/)
 
 ## Grafana OSS Stack
 
