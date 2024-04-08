@@ -39,4 +39,7 @@ Aug, 2022
 
 <img width="650" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/aa02736d-bfb2-430b-a1fe-fadd71a66bb8">
 
+- [Azure DevOps - How to Create audit streaming](https://learn.microsoft.com/en-us/azure/devops/organizations/audit/auditing-streaming?view=azure-devops)
+- [Azure DevOps Auditing - Part 1 - Overview and Streaming to Azure Monitor Logs](https://www.kristhecodingunicorn.com/post/azure-devops-audit-azure-monitor-logs/)
+
 
