@@ -62,3 +62,5 @@ Aug, 2022
 - [What is SRE (site reliability engineering)?](https://www.redhat.com/en/topics/devops/what-is-sre), to understand difference between DevOps [click here](https://jelvix.com/blog/sre-vs-devops)
 
   <img width="945" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/875b0794-ab5a-469c-b4d3-6ed56a44aa77">
+
+  - [Understanding the Observability Maturity Model](https://www.youtube.com/watch?v=KF177XEd3fM)
