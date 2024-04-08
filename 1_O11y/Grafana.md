@@ -34,6 +34,19 @@ Aug, 2022
   - Mimir, the most scalable Prometheus backend.
 
 - Grafana - [Install Grafana on macOS](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/), and see tutorial of [How to Setup on Mac](https://www.youtube.com/watch?v=CYEpiVybM8c)
+
+~~~
+brew update 
+brew install grafana 
+brew services start grafana
+brew services list # see w
+brew services stop grafana # When finished
+## Local config 
+## localhost:3000 -> Web browser
+## admin  -> user
+## admin -> pwd 
+~~~
+
 - Grafana - [Microsoft SQL Server data source](https://grafana.com/docs/grafana/latest/datasources/mssql/)
 - Grafana - [How to setup all E2E in a VM](https://sandervandevelde.wordpress.com/2021/06/15/cloud-iot-dashboards-using-grafana-with-azure-iot/)
 - Grafana - [How to access Azure SQL Server Database Tables from Grafana Cloud](https://learn.microsoft.com/en-us/answers/questions/464027/how-to-access-azure-sql-server-database-tables-fro), if access denied consider [inbound/outbound rules of NSG](https://www.oreilly.com/library/view/learn-microsoft-azure/9781789617580/5391a461-818b-440e-99fe-13c53310f743.xhtml) after adding vnet of grafana instance resource to vnet of data source.
