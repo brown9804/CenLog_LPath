@@ -1,4 +1,4 @@
-# Centralized Logging Learning Path
+# Centralized Logging Framework - Overview
 
 Costa Rica 
 
@@ -8,11 +8,6 @@ Costa Rica
 Last updated: 2020-08-14
 
 ------------------------------------------
-
-<div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
-</div>
 
 ## Content 
 
@@ -65,3 +60,9 @@ Last updated: 2020-08-14
   <img width="945" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/875b0794-ab5a-469c-b4d3-6ed56a44aa77">
 
   - [Understanding the Observability Maturity Model](https://www.youtube.com/watch?v=KF177XEd3fM)
+
+
+<div align="center">
+  <h3 style="color: #4CAF50;">Total Visitors</h3>
+  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
