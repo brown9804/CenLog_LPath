@@ -1,10 +1,6 @@
 # Grafana Notes
 
-----------
-
 Costa Rica
-
-Belinda Brown, belindabrownr04@gmail.com
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
@@ -15,14 +11,10 @@ Aug, 2022
 
 ![image](https://github.com/brown9804/CenLog_LPath/assets/24630902/d81ef0a5-4b2c-45f5-b20e-c7c6940533e0)
 
-<!-- TOC -->
-
 - [Grafana Notes](#grafana-notes)
   - [Wiki](#wiki)
   - [Grafana OSS Stack](#grafana-oss-stack)
   - [Troubleshooting](#troubleshooting)
-
-<!-- /TOC -->
 
 ## Wiki 
 
@@ -89,3 +81,10 @@ brew services stop grafana # When finished
 ## Troubleshooting
 
 - [Status: 500. Message: db query error: mssql: Incorrect syntax near '-'.](https://github.com/grafana/grafana/issues/71816)
+
+<!-- START BADGE -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Total%20views-1022-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-07-11</p>
+</div>
+<!-- END BADGE -->
