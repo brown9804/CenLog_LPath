@@ -13,14 +13,10 @@ Aug, 2022
  
 ## Content 
 
-<!-- TOC -->
-
 - [Observability data categories](#observability-data-categories)
 - [Grafana](#grafana)
 - [Open Source Architecture](#open-source-architecture)
 - [Cloud Architecture](#cloud-architecture)
-
-<!-- /TOC -->
 
   ![image](https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/eebe5c5a-9b3e-4a96-9604-aa3b89c4b597)
 
@@ -56,7 +52,9 @@ Aug, 2022
 
     <img width="593" alt="image" src="https://github.com/brown9804/CenLog_LPath/assets/24630902/6fd160c9-0704-4732-b9f3-e681843ebe90">
 
+<!-- START BADGE -->
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://img.shields.io/badge/Total%20views-1022-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-07-11</p>
 </div>
+<!-- END BADGE -->
