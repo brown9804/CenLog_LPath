@@ -1,9 +1,6 @@
 # Monitoring Notes
-----------
 
 Costa Rica
-
-Belinda Brown, belindabrownr04@gmail.com
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
@@ -16,13 +13,10 @@ Aug, 2022
 
   <img width="572" alt="image" src="https://github.com/brown9804/Obs_Mon_LPath/assets/24630902/d3aeff8a-8aa8-4760-8321-ed88432616c4">
 
-<!-- TOC -->
-
 - [Monitoring Notes](#monitoring-notes)
   - [Monitoring](#monitoring)
   - [Terraform Cloud Monitoring](#terraform-cloud-monitoring)
 
-<!-- /TOC -->
 
 ## Monitoring
 
@@ -47,3 +41,10 @@ Aug, 2022
 
 - [Terraform Cloud for Splunk setup instructions](https://developer.hashicorp.com/terraform/cloud-docs/integrations/splunk)
 - [Terraform Cloud Explorer](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/explorer)
+
+<!-- START BADGE -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Total%20views-1022-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-07-11</p>
+</div>
+<!-- END BADGE -->
